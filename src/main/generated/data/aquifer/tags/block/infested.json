@@ -1,0 +1,26 @@
+{
+  "values": [
+    "sswplus:infested_mossy_cobblestone",
+    "sswplus:infested_smooth_stone",
+    "sswplus:infested_granite",
+    "sswplus:infested_polished_granite",
+    "sswplus:infested_diorite",
+    "sswplus:infested_polished_diorite",
+    "sswplus:infested_andesite",
+    "sswplus:infested_polished_andesite",
+    "sswplus:infested_cobbled_deepslate",
+    "sswplus:infested_chiseled_deepslate",
+    "sswplus:infested_polished_deepslate",
+    "sswplus:infested_deepslate_bricks",
+    "sswplus:infested_cracked_deepslate_bricks",
+    "sswplus:infested_deepslate_tiles",
+    "sswplus:infested_cracked_deepslate_tiles",
+    "sswplus:infested_tuff",
+    "sswplus:infested_chiseled_tuff",
+    "sswplus:infested_polished_tuff",
+    "sswplus:infested_tuff_bricks",
+    "sswplus:infested_chiseled_tuff_bricks",
+    "sswplus:infested_calcite",
+    "sswplus:infested_dripstone_block"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "loom",
+  "key": {
+    "P": {
+      "item": "minecraft:acacia_planks"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "SS",
+    "PP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:acacia_loom"
+  }
+}

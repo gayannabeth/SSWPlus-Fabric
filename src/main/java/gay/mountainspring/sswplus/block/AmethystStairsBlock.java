@@ -1,0 +1,38 @@
+package gay.mountainspring.sswplus.block;
+
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
+
+import net.minecraft.block.BlockState;
+import net.minecraft.block.StairsBlock;
+import net.minecraft.entity.projectile.ProjectileEntity;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+
+public class AmethystStairsBlock extends StairsBlock {
+	public static final MapCodec<AmethystStairsBlock> CODEC = RecordCodecBuilder.mapCodec(
+		instance -> instance.group(BlockState.CODEC.fieldOf("base_state").forGetter(block -> block.baseBlockState), createSettingsCodec())
+		.apply(instance, AmethystStairsBlock::new)
+	);
+	
+	@Override
+	public MapCodec<AmethystStairsBlock> getCodec() {
+		return CODEC;
+	}
+	
+	public AmethystStairsBlock(BlockState baseBlockState, Settings settings) {
+		super(baseBlockState, settings);
+	}
+	
+	@Override
+	protected void onProjectileHit(World world, BlockState state, BlockHitResult hit, ProjectileEntity projectile) {
+		if (!world.isClient) {
+			BlockPos blockPos = hit.getBlockPos();
+			world.playSound(null, blockPos, SoundEvents.BLOCK_AMETHYST_BLOCK_HIT, SoundCategory.BLOCKS, 1.0F, 0.5F + world.random.nextFloat() * 1.2F);
+			world.playSound(null, blockPos, SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, SoundCategory.BLOCKS, 1.0F, 0.5F + world.random.nextFloat() * 1.2F);
+		}
+	}
+}

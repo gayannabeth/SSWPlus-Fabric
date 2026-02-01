@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "bookshelf",
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "pattern": [
+    "###",
+    "BBB",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:dark_oak_bookshelf"
+  }
+}

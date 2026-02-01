@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cartography_table",
+  "key": {
+    "#": {
+      "tag": "sswplus:bamboo_planks"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "PP",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:bamboo_cartography_table"
+  }
+}

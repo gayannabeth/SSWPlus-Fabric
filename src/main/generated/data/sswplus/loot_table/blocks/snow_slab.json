@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "sswplus:snow_slab",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ],
+                  "count": 2.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "sswplus:snow_slab"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "sswplus:snow_slab",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ],
+                  "count": 4.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "block": "sswplus:snow_slab",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "type": "double"
+                        }
+                      }
+                    }
+                  ],
+                  "count": 2.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:snowball"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

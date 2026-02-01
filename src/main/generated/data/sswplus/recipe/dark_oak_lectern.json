@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "lectern",
+  "key": {
+    "B": {
+      "item": "sswplus:dark_oak_bookshelf"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_slab"
+    }
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:dark_oak_lectern"
+  }
+}

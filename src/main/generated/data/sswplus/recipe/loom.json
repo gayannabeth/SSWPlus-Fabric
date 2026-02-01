@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "loom",
+  "ingredients": [
+    {
+      "tag": "aquifer:looms"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:loom"
+  }
+}

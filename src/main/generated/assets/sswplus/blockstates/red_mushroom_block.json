@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sswplus:block/red_mushroom_block"
+    },
+    "type=double": {
+      "model": "minecraft:block/red_mushroom_block_inventory"
+    },
+    "type=top": {
+      "model": "sswplus:block/red_mushroom_block_top"
+    }
+  }
+}

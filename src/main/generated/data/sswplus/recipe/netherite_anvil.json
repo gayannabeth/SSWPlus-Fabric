@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:netherite_block"
+    },
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "BBB",
+    " I ",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:netherite_anvil"
+  }
+}

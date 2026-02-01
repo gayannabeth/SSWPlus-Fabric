@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tripwire_hook",
+  "ingredients": [
+    {
+      "tag": "aquifer:tripwire_hooks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:tripwire_hook"
+  }
+}

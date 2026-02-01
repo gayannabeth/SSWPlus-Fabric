@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cartography_table",
+  "ingredients": [
+    {
+      "tag": "aquifer:cartography_tables"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cartography_table"
+  }
+}

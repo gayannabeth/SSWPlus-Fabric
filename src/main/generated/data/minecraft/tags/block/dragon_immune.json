@@ -1,0 +1,11 @@
+{
+  "values": [
+    "sswplus:bedrock_slab",
+    "sswplus:bedrock_stairs",
+    "sswplus:bedrock_wall",
+    "#sswplus:obsidian",
+    "#sswplus:obsidian_slabs",
+    "#sswplus:obsidian_stairs",
+    "#sswplus:obsidian_walls"
+  ]
+}

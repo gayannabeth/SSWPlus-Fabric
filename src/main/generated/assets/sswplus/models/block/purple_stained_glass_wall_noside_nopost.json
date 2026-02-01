@@ -1,0 +1,6 @@
+{
+  "parent": "aquifer:block/template_trans_wall_noside_nopost",
+  "textures": {
+    "side": "minecraft:block/purple_stained_glass"
+  }
+}

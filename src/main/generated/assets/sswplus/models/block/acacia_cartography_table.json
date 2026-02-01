@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/acacia_planks",
+    "east": "sswplus:block/acacia_cartography_table_side3",
+    "north": "sswplus:block/acacia_cartography_table_side3",
+    "particle": "sswplus:block/acacia_cartography_table_side3",
+    "south": "sswplus:block/acacia_cartography_table_side1",
+    "up": "sswplus:block/acacia_cartography_table_top",
+    "west": "sswplus:block/acacia_cartography_table_side2"
+  }
+}

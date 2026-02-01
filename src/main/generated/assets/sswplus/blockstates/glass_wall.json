@@ -1,0 +1,651 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_post",
+        "uvlock": true
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_nopost_tall",
+        "uvlock": true
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "OR": [
+              {
+                "north": "tall"
+              },
+              {
+                "east": "tall"
+              },
+              {
+                "south": "tall"
+              },
+              {
+                "west": "tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_nopost",
+        "uvlock": true
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "AND": [
+              {
+                "north": "!tall"
+              },
+              {
+                "east": "!tall"
+              },
+              {
+                "south": "!tall"
+              },
+              {
+                "west": "!tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "north": "none"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside_nopost_tall",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "north": "none"
+          },
+          {
+            "OR": [
+              {
+                "east": "tall"
+              },
+              {
+                "south": "tall"
+              },
+              {
+                "west": "tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside_nopost",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "north": "none"
+          },
+          {
+            "AND": [
+              {
+                "east": "!tall"
+              },
+              {
+                "south": "!tall"
+              },
+              {
+                "west": "!tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "north": "low"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_nopost",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "north": "low"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_tall",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "north": "tall"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_tall_nopost",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "north": "tall"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "east": "none"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside_nopost_tall",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "east": "none"
+          },
+          {
+            "OR": [
+              {
+                "north": "tall"
+              },
+              {
+                "south": "tall"
+              },
+              {
+                "west": "tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside_nopost",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "east": "none"
+          },
+          {
+            "AND": [
+              {
+                "north": "!tall"
+              },
+              {
+                "south": "!tall"
+              },
+              {
+                "west": "!tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "east": "low"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_nopost",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "east": "low"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_tall",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "east": "tall"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_tall_nopost",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "east": "tall"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "south": "none"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside_nopost_tall",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "south": "none"
+          },
+          {
+            "OR": [
+              {
+                "north": "tall"
+              },
+              {
+                "east": "tall"
+              },
+              {
+                "west": "tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside_nopost",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "south": "none"
+          },
+          {
+            "AND": [
+              {
+                "north": "!tall"
+              },
+              {
+                "east": "!tall"
+              },
+              {
+                "west": "!tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "south": "low"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_nopost",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "south": "low"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_tall",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "south": "tall"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_tall_nopost",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "south": "tall"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "west": "none"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside_nopost_tall",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "west": "none"
+          },
+          {
+            "OR": [
+              {
+                "north": "tall"
+              },
+              {
+                "east": "tall"
+              },
+              {
+                "south": "tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_noside_nopost",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "west": "none"
+          },
+          {
+            "AND": [
+              {
+                "north": "!tall"
+              },
+              {
+                "east": "!tall"
+              },
+              {
+                "south": "!tall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "west": "low"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_nopost",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "west": "low"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_tall",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "true"
+          },
+          {
+            "west": "tall"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/glass_wall_side_tall_nopost",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "up": "false"
+          },
+          {
+            "west": "tall"
+          }
+        ]
+      }
+    }
+  ]
+}

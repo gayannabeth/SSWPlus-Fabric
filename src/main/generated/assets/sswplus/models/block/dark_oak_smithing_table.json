@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "sswplus:block/dark_oak_smithing_table_bottom",
+    "east": "sswplus:block/dark_oak_smithing_table_side",
+    "north": "sswplus:block/dark_oak_smithing_table_front",
+    "particle": "sswplus:block/dark_oak_smithing_table_front",
+    "south": "sswplus:block/dark_oak_smithing_table_front",
+    "up": "minecraft:block/smithing_table_top",
+    "west": "sswplus:block/dark_oak_smithing_table_side"
+  }
+}

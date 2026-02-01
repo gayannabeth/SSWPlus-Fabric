@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/template_composter",
+  "textures": {
+    "bottom": "sswplus:block/spruce_composter_bottom",
+    "inside": "sswplus:block/spruce_composter_bottom",
+    "side": "sswplus:block/spruce_composter_side",
+    "top": "sswplus:block/spruce_composter_top"
+  }
+}

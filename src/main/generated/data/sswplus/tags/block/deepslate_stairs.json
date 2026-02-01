@@ -1,0 +1,10 @@
+{
+  "values": [
+    "sswplus:deepslate_stairs",
+    "minecraft:cobbled_deepslate_stairs",
+    "sswplus:chiseled_deepslate_stairs",
+    "minecraft:polished_deepslate_stairs",
+    "#sswplus:deepslate_brick_stairs",
+    "#sswplus:deepslate_tile_stairs"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "aquifer:block/template_wall_post_column",
+  "textures": {
+    "end": "minecraft:block/chiseled_tuff_bricks_top",
+    "side": "minecraft:block/chiseled_tuff_bricks"
+  }
+}

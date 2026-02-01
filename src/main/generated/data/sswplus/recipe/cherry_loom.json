@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "loom",
+  "key": {
+    "P": {
+      "item": "minecraft:cherry_planks"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "SS",
+    "PP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:cherry_loom"
+  }
+}

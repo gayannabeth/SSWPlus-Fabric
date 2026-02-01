@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+    "^": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "^ ^",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sswplus:iron_hanging_sign"
+  }
+}

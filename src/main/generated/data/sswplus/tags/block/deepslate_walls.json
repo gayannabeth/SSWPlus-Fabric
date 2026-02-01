@@ -1,0 +1,10 @@
+{
+  "values": [
+    "sswplus:deepslate_wall",
+    "minecraft:cobbled_deepslate_wall",
+    "sswplus:chiseled_deepslate_wall",
+    "minecraft:polished_deepslate_wall",
+    "#sswplus:deepslate_brick_walls",
+    "#sswplus:deepslate_tile_walls"
+  ]
+}

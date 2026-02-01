@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chiseled_bookshelf",
+  "key": {
+    "P": {
+      "tag": "sswplus:bamboo_planks"
+    },
+    "S": [
+      {
+        "item": "minecraft:bamboo_planks"
+      },
+      {
+        "item": "minecraft:bamboo_mosaic"
+      }
+    ]
+  },
+  "pattern": [
+    "PPP",
+    "SSS",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:bamboo_chiseled_bookshelf"
+  }
+}

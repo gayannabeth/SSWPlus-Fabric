@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "leaf_slab",
+  "key": {
+    "#": {
+      "item": "minecraft:flowering_azalea_leaves"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sswplus:flowering_azalea_leaf_slab"
+  }
+}

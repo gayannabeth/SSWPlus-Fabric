@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "N": {
+      "item": "sswplus:netherite_nugget"
+    }
+  },
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:netherite_chain"
+  }
+}

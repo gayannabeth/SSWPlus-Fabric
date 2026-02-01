@@ -1,0 +1,6 @@
+{
+  "parent": "aquifer:block/template_tripwire_hook_attached",
+  "textures": {
+    "base": "minecraft:block/acacia_planks"
+  }
+}

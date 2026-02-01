@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "lit=false,type=bottom": {
+      "model": "sswplus:block/redstone_lamp_slab"
+    },
+    "lit=false,type=double": {
+      "model": "minecraft:block/redstone_lamp"
+    },
+    "lit=false,type=top": {
+      "model": "sswplus:block/redstone_lamp_slab_top"
+    },
+    "lit=true,type=bottom": {
+      "model": "sswplus:block/redstone_lamp_slab_on"
+    },
+    "lit=true,type=double": {
+      "model": "minecraft:block/redstone_lamp_on"
+    },
+    "lit=true,type=top": {
+      "model": "sswplus:block/redstone_lamp_slab_on_top"
+    }
+  }
+}

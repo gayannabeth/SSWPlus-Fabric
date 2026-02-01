@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_barrel",
+  "key": {
+    "P": {
+      "tag": "sswplus:bamboo_planks"
+    },
+    "S": [
+      {
+        "item": "minecraft:bamboo_slab"
+      },
+      {
+        "item": "minecraft:bamboo_mosaic_slab"
+      }
+    ]
+  },
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:bamboo_barrel"
+  }
+}

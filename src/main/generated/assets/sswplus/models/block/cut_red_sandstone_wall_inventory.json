@@ -1,0 +1,7 @@
+{
+  "parent": "aquifer:block/wall_column_inventory",
+  "textures": {
+    "end": "minecraft:block/red_sandstone_top",
+    "side": "minecraft:block/cut_red_sandstone"
+  }
+}

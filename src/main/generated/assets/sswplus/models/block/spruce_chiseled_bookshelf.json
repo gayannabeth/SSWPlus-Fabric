@@ -1,0 +1,7 @@
+{
+  "parent": "aquifer:block/template_chiseled_bookshelf",
+  "textures": {
+    "side": "sswplus:block/spruce_chiseled_bookshelf_side",
+    "top": "sswplus:block/spruce_chiseled_bookshelf_top"
+  }
+}

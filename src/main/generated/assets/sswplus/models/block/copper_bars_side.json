@@ -1,0 +1,6 @@
+{
+  "parent": "aquifer:block/template_bars_side",
+  "textures": {
+    "bars": "sswplus:block/copper_bars"
+  }
+}

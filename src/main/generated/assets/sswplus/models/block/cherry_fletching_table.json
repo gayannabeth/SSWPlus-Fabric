@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/cherry_planks",
+    "east": "sswplus:block/cherry_fletching_table_side",
+    "north": "sswplus:block/cherry_fletching_table_front",
+    "particle": "sswplus:block/cherry_fletching_table_front",
+    "south": "sswplus:block/cherry_fletching_table_front",
+    "up": "sswplus:block/cherry_fletching_table_top",
+    "west": "sswplus:block/cherry_fletching_table_side"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/oriented_stairs_front_inside",
+  "textures": {
+    "bottom": "minecraft:block/jungle_log_top",
+    "inside": "sswplus:block/jungle_log_inside",
+    "side": "minecraft:block/jungle_log",
+    "top": "minecraft:block/jungle_log_top"
+  }
+}

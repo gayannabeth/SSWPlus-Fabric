@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#sswplus:copper_blocks/waxed",
+    "#sswplus:copper_slabs/waxed",
+    "#sswplus:copper_stairs/waxed",
+    "#sswplus:copper_walls/waxed",
+    "#sswplus:copper_fences/waxed",
+    "#sswplus:copper_fence_gates/waxed",
+    "#sswplus:copper_bars/waxed",
+    "#sswplus:copper_doors/waxed",
+    "#sswplus:copper_trapdoors/waxed",
+    "#sswplus:copper_pressure_plates/waxed",
+    "#sswplus:copper_buttons/waxed",
+    "#sswplus:copper_buttons/waxed",
+    "#sswplus:copper_bulbs/waxed",
+    "#sswplus:waxed_copper_ladders",
+    "#sswplus:all_waxed_copper_signs",
+    "#sswplus:waxed_copper_cauldrons",
+    "#sswplus:waxed_copper_lanterns"
+  ]
+}

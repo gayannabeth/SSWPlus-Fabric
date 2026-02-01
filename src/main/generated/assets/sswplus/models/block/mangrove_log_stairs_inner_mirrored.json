@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/inner_stairs_inside",
+  "textures": {
+    "bottom": "minecraft:block/mangrove_log_top",
+    "inside": "sswplus:block/mangrove_log_inside",
+    "side": "minecraft:block/mangrove_log",
+    "top": "minecraft:block/mangrove_log_top"
+  }
+}

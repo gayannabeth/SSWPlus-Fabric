@@ -1,0 +1,10 @@
+{
+  "parent": "aquifer:block/template_cauldron_level1",
+  "textures": {
+    "bottom": "sswplus:block/weathered_copper_cauldron_bottom",
+    "content": "minecraft:block/water_still",
+    "inside": "sswplus:block/weathered_copper_cauldron_inner",
+    "side": "sswplus:block/weathered_copper_cauldron_side",
+    "top": "sswplus:block/weathered_copper_cauldron_top"
+  }
+}

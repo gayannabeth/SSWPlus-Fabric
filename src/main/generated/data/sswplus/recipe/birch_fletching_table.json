@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cartography_table",
+  "key": {
+    "#": {
+      "item": "minecraft:birch_planks"
+    },
+    "P": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    "PP",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:birch_fletching_table"
+  }
+}

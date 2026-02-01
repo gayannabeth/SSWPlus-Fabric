@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chiseled_bookshelf",
+  "ingredients": [
+    {
+      "tag": "aquifer:chiseled_bookshelves"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:chiseled_bookshelf"
+  }
+}

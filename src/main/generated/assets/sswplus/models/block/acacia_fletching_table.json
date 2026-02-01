@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/acacia_planks",
+    "east": "sswplus:block/acacia_fletching_table_side",
+    "north": "sswplus:block/acacia_fletching_table_front",
+    "particle": "sswplus:block/acacia_fletching_table_front",
+    "south": "sswplus:block/acacia_fletching_table_front",
+    "up": "sswplus:block/acacia_fletching_table_top",
+    "west": "sswplus:block/acacia_fletching_table_side"
+  }
+}

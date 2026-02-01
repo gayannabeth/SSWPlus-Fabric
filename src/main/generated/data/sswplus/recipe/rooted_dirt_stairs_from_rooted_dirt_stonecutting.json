@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:rooted_dirt"
+  },
+  "result": {
+    "count": 1,
+    "id": "sswplus:rooted_dirt_stairs"
+  }
+}

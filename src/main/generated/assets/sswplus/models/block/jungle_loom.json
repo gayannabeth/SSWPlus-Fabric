@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "sswplus:block/jungle_loom_bottom",
+    "front": "sswplus:block/jungle_loom_front",
+    "side": "sswplus:block/jungle_loom_side",
+    "top": "sswplus:block/jungle_loom_top"
+  }
+}

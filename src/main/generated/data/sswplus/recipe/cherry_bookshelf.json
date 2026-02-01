@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "bookshelf",
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_planks"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "pattern": [
+    "###",
+    "BBB",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:cherry_bookshelf"
+  }
+}

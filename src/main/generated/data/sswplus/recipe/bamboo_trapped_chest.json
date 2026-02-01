@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_trapped_chest",
+  "ingredients": [
+    {
+      "tag": "sswplus:bamboo_planks"
+    },
+    {
+      "tag": "aquifer:tripwire_hooks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:bamboo_trapped_chest"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "values": [
+    "sswplus:copper_stairs",
+    "sswplus:chiseled_copper_stairs",
+    "sswplus:copper_grate_stairs",
+    "minecraft:cut_copper_stairs",
+    "sswplus:exposed_copper_stairs",
+    "sswplus:exposed_chiseled_copper_stairs",
+    "sswplus:exposed_copper_grate_stairs",
+    "minecraft:exposed_cut_copper_stairs",
+    "sswplus:weathered_copper_stairs",
+    "sswplus:weathered_chiseled_copper_stairs",
+    "sswplus:weathered_copper_grate_stairs",
+    "minecraft:weathered_cut_copper_stairs",
+    "sswplus:oxidized_copper_stairs",
+    "sswplus:oxidized_chiseled_copper_stairs",
+    "sswplus:oxidized_copper_grate_stairs",
+    "minecraft:oxidized_cut_copper_stairs"
+  ]
+}

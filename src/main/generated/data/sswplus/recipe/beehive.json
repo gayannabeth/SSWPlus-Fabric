@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "beehive",
+  "ingredients": [
+    {
+      "tag": "aquifer:crafted_beehives"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:beehive"
+  }
+}

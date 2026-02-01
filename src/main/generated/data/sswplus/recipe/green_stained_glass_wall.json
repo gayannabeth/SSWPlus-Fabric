@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "glass_wall",
+  "key": {
+    "#": {
+      "item": "minecraft:green_stained_glass"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sswplus:green_stained_glass_wall"
+  }
+}

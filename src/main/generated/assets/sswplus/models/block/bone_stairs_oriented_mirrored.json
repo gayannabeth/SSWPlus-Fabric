@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/oriented_outer_stairs_inside_mirrored",
+  "textures": {
+    "bottom": "minecraft:block/bone_block_top",
+    "inside": "sswplus:block/bone_block_inside",
+    "side": "minecraft:block/bone_block_side",
+    "top": "minecraft:block/bone_block_top"
+  }
+}

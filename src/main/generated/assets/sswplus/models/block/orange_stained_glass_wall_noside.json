@@ -1,0 +1,6 @@
+{
+  "parent": "aquifer:block/template_trans_wall_noside",
+  "textures": {
+    "side": "minecraft:block/orange_stained_glass"
+  }
+}

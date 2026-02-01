@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sswplus:copper_ladder"
+    },
+    {
+      "tag": "aquifer:waxables"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:waxed_copper_ladder"
+  }
+}

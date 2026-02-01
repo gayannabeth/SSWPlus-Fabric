@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/template_cauldron_empty",
+  "textures": {
+    "bottom": "sswplus:block/netherite_cauldron_bottom",
+    "inside": "sswplus:block/netherite_cauldron_inner",
+    "side": "sswplus:block/netherite_cauldron_side",
+    "top": "sswplus:block/netherite_cauldron_top"
+  }
+}

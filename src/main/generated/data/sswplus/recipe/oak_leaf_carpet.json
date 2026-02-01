@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "leaf_carpet",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "sswplus:oak_leaf_carpet"
+  }
+}

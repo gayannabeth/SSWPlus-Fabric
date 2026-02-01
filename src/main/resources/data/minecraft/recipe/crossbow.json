@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"tag": "c:rods/wooden"
+		},
+		"$": {
+			"tag": "aquifer:tripwire_hooks"
+		},
+		"&": {
+			"item": "minecraft:iron_ingot"
+		},
+		"~": {
+			"item": "minecraft:string"
+		}
+	},
+	"pattern": [
+		"#&#",
+		"~$~",
+		" # "
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:crossbow"
+	}
+}

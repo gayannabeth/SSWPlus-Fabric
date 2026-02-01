@@ -1,0 +1,33 @@
+{
+  "variants": {
+    "axis=x,type=bottom": {
+      "model": "sswplus:block/stripped_bamboo_block_slab_oriented",
+      "y": 90
+    },
+    "axis=x,type=double": {
+      "model": "minecraft:block/stripped_bamboo_block_x"
+    },
+    "axis=x,type=top": {
+      "model": "sswplus:block/stripped_bamboo_block_slab_oriented_top",
+      "y": 90
+    },
+    "axis=y,type=bottom": {
+      "model": "sswplus:block/stripped_bamboo_block_slab"
+    },
+    "axis=y,type=double": {
+      "model": "minecraft:block/stripped_bamboo_block_y"
+    },
+    "axis=y,type=top": {
+      "model": "sswplus:block/stripped_bamboo_block_slab_top"
+    },
+    "axis=z,type=bottom": {
+      "model": "sswplus:block/stripped_bamboo_block_slab_oriented"
+    },
+    "axis=z,type=double": {
+      "model": "minecraft:block/stripped_bamboo_block_z"
+    },
+    "axis=z,type=top": {
+      "model": "sswplus:block/stripped_bamboo_block_slab_oriented_top"
+    }
+  }
+}

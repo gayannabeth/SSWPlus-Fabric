@@ -1,0 +1,7 @@
+{
+  "parent": "aquifer:block/template_anvil",
+  "textures": {
+    "body": "sswplus:block/netherite_anvil",
+    "top": "sswplus:block/netherite_anvil"
+  }
+}

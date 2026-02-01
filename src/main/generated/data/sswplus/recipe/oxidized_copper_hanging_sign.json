@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:oxidized_copper"
+    },
+    "^": {
+      "item": "sswplus:oxidized_copper_chain"
+    }
+  },
+  "pattern": [
+    "^ ^",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sswplus:oxidized_copper_hanging_sign"
+  }
+}

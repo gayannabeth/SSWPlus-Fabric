@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/orientable_slab_inside",
+  "textures": {
+    "bottom": "minecraft:block/crimson_stem_top",
+    "inside": "sswplus:block/crimson_stem_inside",
+    "side": "minecraft:block/crimson_stem",
+    "top": "minecraft:block/crimson_stem_top"
+  }
+}

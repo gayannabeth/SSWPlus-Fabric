@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cartography_table",
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_planks"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "PP",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:cherry_cartography_table"
+  }
+}

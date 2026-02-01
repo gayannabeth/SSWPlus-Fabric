@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:blackstone_wall",
+    "sswplus:gilded_blackstone_wall",
+    "sswplus:chiseled_polished_blackstone_wall",
+    "minecraft:polished_blackstone_wall",
+    "#sswplus:blackstone_brick_walls"
+  ]
+}

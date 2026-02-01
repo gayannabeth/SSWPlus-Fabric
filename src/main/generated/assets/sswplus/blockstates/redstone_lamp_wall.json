@@ -1,0 +1,178 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_post"
+      },
+      "when": {
+        "lit": "false",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_on_post"
+      },
+      "when": {
+        "lit": "true",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_side"
+      },
+      "when": {
+        "lit": "false",
+        "north": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_on_side"
+      },
+      "when": {
+        "lit": "true",
+        "north": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_side",
+        "y": 90
+      },
+      "when": {
+        "east": "low",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_on_side",
+        "y": 90
+      },
+      "when": {
+        "east": "low",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_side",
+        "y": 180
+      },
+      "when": {
+        "lit": "false",
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_on_side",
+        "y": 180
+      },
+      "when": {
+        "lit": "true",
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_side",
+        "y": 270
+      },
+      "when": {
+        "lit": "false",
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_on_side",
+        "y": 270
+      },
+      "when": {
+        "lit": "true",
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_side_tall"
+      },
+      "when": {
+        "lit": "false",
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_on_side_tall"
+      },
+      "when": {
+        "lit": "true",
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_side_tall",
+        "y": 90
+      },
+      "when": {
+        "east": "tall",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_on_side_tall",
+        "y": 90
+      },
+      "when": {
+        "east": "tall",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_side_tall",
+        "y": 180
+      },
+      "when": {
+        "lit": "false",
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_on_side_tall",
+        "y": 180
+      },
+      "when": {
+        "lit": "true",
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_side_tall",
+        "y": 270
+      },
+      "when": {
+        "lit": "false",
+        "west": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/redstone_lamp_wall_on_side_tall",
+        "y": 270
+      },
+      "when": {
+        "lit": "true",
+        "west": "tall"
+      }
+    }
+  ]
+}

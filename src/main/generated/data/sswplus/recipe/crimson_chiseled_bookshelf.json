@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chiseled_bookshelf",
+  "key": {
+    "P": {
+      "item": "minecraft:crimson_planks"
+    },
+    "S": {
+      "item": "minecraft:crimson_slab"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "SSS",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:crimson_chiseled_bookshelf"
+  }
+}

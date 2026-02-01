@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sswplus:bamboo_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sswplus:bamboo_ladder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sswplus:bamboo_ladder"
+    ]
+  }
+}

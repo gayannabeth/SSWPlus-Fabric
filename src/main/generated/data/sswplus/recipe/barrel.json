@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wooden_barrel",
+  "ingredients": [
+    {
+      "tag": "c:barrels/wooden"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:barrel"
+  }
+}

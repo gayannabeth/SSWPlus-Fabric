@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "glass_stairs",
+  "key": {
+    "#": {
+      "item": "sswplus:glass_stairs"
+    },
+    "D": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sswplus:pink_stained_glass_stairs"
+  }
+}

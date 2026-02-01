@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "lectern",
+  "key": {
+    "B": {
+      "item": "sswplus:cherry_bookshelf"
+    },
+    "S": {
+      "item": "minecraft:cherry_slab"
+    }
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:cherry_lectern"
+  }
+}

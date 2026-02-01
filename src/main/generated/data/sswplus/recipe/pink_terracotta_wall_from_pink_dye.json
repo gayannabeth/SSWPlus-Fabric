@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "terracotta_wall",
+  "key": {
+    "#": {
+      "item": "sswplus:terracotta_wall"
+    },
+    "D": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sswplus:pink_terracotta_wall"
+  }
+}

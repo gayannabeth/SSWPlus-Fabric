@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "leaf_stairs",
+  "key": {
+    "#": {
+      "item": "minecraft:birch_leaves"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "sswplus:birch_leaf_stairs"
+  }
+}

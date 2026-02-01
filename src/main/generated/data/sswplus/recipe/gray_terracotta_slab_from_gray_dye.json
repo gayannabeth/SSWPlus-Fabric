@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "terracotta_slab",
+  "key": {
+    "#": {
+      "item": "sswplus:terracotta_slab"
+    },
+    "D": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sswplus:gray_terracotta_slab"
+  }
+}

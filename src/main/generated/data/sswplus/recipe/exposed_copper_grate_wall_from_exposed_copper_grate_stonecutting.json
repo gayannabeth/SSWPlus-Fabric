@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:exposed_copper_grate"
+  },
+  "result": {
+    "count": 1,
+    "id": "sswplus:exposed_copper_grate_wall"
+  }
+}

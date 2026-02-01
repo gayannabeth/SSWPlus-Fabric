@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/oriented_outer_stairs_inside_mirrored",
+  "textures": {
+    "bottom": "minecraft:block/acacia_log_top",
+    "inside": "sswplus:block/acacia_log_inside",
+    "side": "minecraft:block/acacia_log",
+    "top": "minecraft:block/acacia_log_top"
+  }
+}

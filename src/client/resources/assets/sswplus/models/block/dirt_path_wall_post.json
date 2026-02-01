@@ -1,0 +1,25 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/dirt",
+		"1": "block/dirt_path_side",
+		"2": "block/dirt_path_top",
+		"particle": "block/dirt"
+	},
+	"elements": [
+		{
+			"name": "post",
+			"from": [4, 0, 4],
+			"to": [12, 15, 12],
+			"faces": {
+				"north": {"uv": [4, 1, 12, 16], "texture": "#1"},
+				"east": {"uv": [4, 1, 12, 16], "texture": "#1"},
+				"south": {"uv": [4, 1, 12, 16], "texture": "#1"},
+				"west": {"uv": [4, 1, 12, 16], "texture": "#1"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#2"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/orientable_slab_top_inside",
+  "textures": {
+    "bottom": "minecraft:block/cherry_log_top",
+    "inside": "sswplus:block/cherry_log_inside",
+    "side": "minecraft:block/cherry_log",
+    "top": "minecraft:block/cherry_log_top"
+  }
+}

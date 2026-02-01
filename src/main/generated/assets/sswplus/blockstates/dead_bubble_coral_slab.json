@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sswplus:block/dead_bubble_coral_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/dead_bubble_coral_block"
+    },
+    "type=top": {
+      "model": "sswplus:block/dead_bubble_coral_slab_top"
+    }
+  }
+}

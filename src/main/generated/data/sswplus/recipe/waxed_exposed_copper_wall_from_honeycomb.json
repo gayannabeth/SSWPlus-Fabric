@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "waxed_exposed_copper_wall",
+  "ingredients": [
+    {
+      "item": "sswplus:exposed_copper_wall"
+    },
+    {
+      "tag": "aquifer:waxables"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:waxed_exposed_copper_wall"
+  }
+}

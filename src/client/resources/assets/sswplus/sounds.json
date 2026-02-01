@@ -1,0 +1,14 @@
+{
+	"block.nether_brick_fence_gate.close": {
+		"subtitle": "subtitle.sswplus.block.nether_brick_fence_gate.close",
+		"sounds": [
+			"sswplus:nether_brick_fence_gate_close"
+		]
+	},
+	"block.nether_brick_fence_gate.open": {
+		"subtitle": "subtitle.sswplus.block.nether_brick_fence_gate.open",
+		"sounds": [
+			"sswplus:nether_brick_fence_gate_open"
+		]
+	}
+}

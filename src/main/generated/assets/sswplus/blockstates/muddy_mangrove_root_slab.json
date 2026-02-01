@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "axis=x,type=bottom": {
+      "model": "sswplus:block/muddy_mangrove_root_slab_oriented",
+      "y": 90
+    },
+    "axis=x,type=double": {
+      "model": "minecraft:block/muddy_mangrove_roots",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,type=top": {
+      "model": "sswplus:block/muddy_mangrove_root_slab_oriented_top",
+      "y": 90
+    },
+    "axis=y,type=bottom": {
+      "model": "sswplus:block/muddy_mangrove_root_slab"
+    },
+    "axis=y,type=double": {
+      "model": "minecraft:block/muddy_mangrove_roots"
+    },
+    "axis=y,type=top": {
+      "model": "sswplus:block/muddy_mangrove_root_slab_top"
+    },
+    "axis=z,type=bottom": {
+      "model": "sswplus:block/muddy_mangrove_root_slab_oriented"
+    },
+    "axis=z,type=double": {
+      "model": "minecraft:block/muddy_mangrove_roots",
+      "x": 90
+    },
+    "axis=z,type=top": {
+      "model": "sswplus:block/muddy_mangrove_root_slab_oriented_top"
+    }
+  }
+}

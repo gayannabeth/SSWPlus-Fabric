@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cartography_table",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+    "P": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    "PP",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:oak_fletching_table"
+  }
+}

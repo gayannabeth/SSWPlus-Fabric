@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "snowy=false,type=bottom": {
+      "model": "sswplus:block/grass_slab"
+    },
+    "snowy=false,type=double": {
+      "model": "sswplus:block/grass_slab_double"
+    },
+    "snowy=false,type=top": {
+      "model": "sswplus:block/grass_slab_top"
+    },
+    "snowy=true,type=bottom": {
+      "model": "sswplus:block/grass_slab_snowy"
+    },
+    "snowy=true,type=double": {
+      "model": "sswplus:block/grass_slab_snowy_double"
+    },
+    "snowy=true,type=top": {
+      "model": "sswplus:block/grass_slab_snowy_top"
+    }
+  }
+}

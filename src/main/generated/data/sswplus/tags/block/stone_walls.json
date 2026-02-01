@@ -1,0 +1,9 @@
+{
+  "values": [
+    "sswplus:stone_wall",
+    "minecraft:cobblestone_wall",
+    "minecraft:mossy_cobblestone_wall",
+    "sswplus:smooth_stone_wall",
+    "#sswplus:stone_brick_walls"
+  ]
+}

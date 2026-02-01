@@ -1,0 +1,178 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_post"
+      },
+      "when": {
+        "snowy": "false",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_snowy_post"
+      },
+      "when": {
+        "snowy": "true",
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_side"
+      },
+      "when": {
+        "north": "low",
+        "snowy": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_snowy_side"
+      },
+      "when": {
+        "north": "low",
+        "snowy": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_side",
+        "y": 90
+      },
+      "when": {
+        "east": "low",
+        "snowy": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_snowy_side",
+        "y": 90
+      },
+      "when": {
+        "east": "low",
+        "snowy": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_side",
+        "y": 180
+      },
+      "when": {
+        "snowy": "false",
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_snowy_side",
+        "y": 180
+      },
+      "when": {
+        "snowy": "true",
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_side",
+        "y": 270
+      },
+      "when": {
+        "snowy": "false",
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_snowy_side",
+        "y": 270
+      },
+      "when": {
+        "snowy": "true",
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_side_tall"
+      },
+      "when": {
+        "north": "tall",
+        "snowy": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_snowy_side_tall"
+      },
+      "when": {
+        "north": "tall",
+        "snowy": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_side_tall",
+        "y": 90
+      },
+      "when": {
+        "east": "tall",
+        "snowy": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_snowy_side_tall",
+        "y": 90
+      },
+      "when": {
+        "east": "tall",
+        "snowy": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_side_tall",
+        "y": 180
+      },
+      "when": {
+        "snowy": "false",
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_snowy_side_tall",
+        "y": 180
+      },
+      "when": {
+        "snowy": "true",
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_side_tall",
+        "y": 270
+      },
+      "when": {
+        "snowy": "false",
+        "west": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "sswplus:block/grass_wall_snowy_side_tall",
+        "y": 270
+      },
+      "when": {
+        "snowy": "true",
+        "west": "tall"
+      }
+    }
+  ]
+}

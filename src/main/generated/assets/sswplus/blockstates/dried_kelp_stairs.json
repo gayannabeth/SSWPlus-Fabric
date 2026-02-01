@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=east,half=bottom,shape=inner_left": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_northeast"
+    },
+    "facing=east,half=bottom,shape=inner_right": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_southeast"
+    },
+    "facing=east,half=bottom,shape=outer_left": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_northeast"
+    },
+    "facing=east,half=bottom,shape=outer_right": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_southeast"
+    },
+    "facing=east,half=bottom,shape=straight": {
+      "model": "sswplus:block/dried_kelp_stairs_east"
+    },
+    "facing=east,half=top,shape=inner_left": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_top_northeast"
+    },
+    "facing=east,half=top,shape=inner_right": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_top_southeast"
+    },
+    "facing=east,half=top,shape=outer_left": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_top_northeast"
+    },
+    "facing=east,half=top,shape=outer_right": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_top_southeast"
+    },
+    "facing=east,half=top,shape=straight": {
+      "model": "sswplus:block/dried_kelp_stairs_top_east"
+    },
+    "facing=north,half=bottom,shape=inner_left": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_northwest"
+    },
+    "facing=north,half=bottom,shape=inner_right": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_northeast"
+    },
+    "facing=north,half=bottom,shape=outer_left": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_northwest"
+    },
+    "facing=north,half=bottom,shape=outer_right": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_northeast"
+    },
+    "facing=north,half=bottom,shape=straight": {
+      "model": "sswplus:block/dried_kelp_stairs_north"
+    },
+    "facing=north,half=top,shape=inner_left": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_top_northwest"
+    },
+    "facing=north,half=top,shape=inner_right": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_top_northeast"
+    },
+    "facing=north,half=top,shape=outer_left": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_top_northwest"
+    },
+    "facing=north,half=top,shape=outer_right": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_top_northeast"
+    },
+    "facing=north,half=top,shape=straight": {
+      "model": "sswplus:block/dried_kelp_stairs_top_north"
+    },
+    "facing=south,half=bottom,shape=inner_left": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_southeast"
+    },
+    "facing=south,half=bottom,shape=inner_right": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_southwest"
+    },
+    "facing=south,half=bottom,shape=outer_left": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_southeast"
+    },
+    "facing=south,half=bottom,shape=outer_right": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_southwest"
+    },
+    "facing=south,half=bottom,shape=straight": {
+      "model": "sswplus:block/dried_kelp_stairs_south"
+    },
+    "facing=south,half=top,shape=inner_left": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_top_southeast"
+    },
+    "facing=south,half=top,shape=inner_right": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_top_southwest"
+    },
+    "facing=south,half=top,shape=outer_left": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_top_southeast"
+    },
+    "facing=south,half=top,shape=outer_right": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_top_southwest"
+    },
+    "facing=south,half=top,shape=straight": {
+      "model": "sswplus:block/dried_kelp_stairs_top_south"
+    },
+    "facing=west,half=bottom,shape=inner_left": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_southwest"
+    },
+    "facing=west,half=bottom,shape=inner_right": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_northwest"
+    },
+    "facing=west,half=bottom,shape=outer_left": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_southwest"
+    },
+    "facing=west,half=bottom,shape=outer_right": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_northwest"
+    },
+    "facing=west,half=bottom,shape=straight": {
+      "model": "sswplus:block/dried_kelp_stairs_west"
+    },
+    "facing=west,half=top,shape=inner_left": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_top_southwest"
+    },
+    "facing=west,half=top,shape=inner_right": {
+      "model": "sswplus:block/dried_kelp_stairs_inner_top_northwest"
+    },
+    "facing=west,half=top,shape=outer_left": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_top_southwest"
+    },
+    "facing=west,half=top,shape=outer_right": {
+      "model": "sswplus:block/dried_kelp_stairs_outer_top_northwest"
+    },
+    "facing=west,half=top,shape=straight": {
+      "model": "sswplus:block/dried_kelp_stairs_top_west"
+    }
+  }
+}

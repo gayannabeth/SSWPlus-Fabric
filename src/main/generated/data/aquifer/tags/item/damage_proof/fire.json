@@ -1,0 +1,26 @@
+{
+  "values": [
+    "sswplus:netherite_slab",
+    "sswplus:netherite_stairs",
+    "sswplus:netherite_wall",
+    "sswplus:netherite_fence",
+    "sswplus:netherite_fence_gate",
+    "sswplus:netherite_bars",
+    "sswplus:netherite_door",
+    "sswplus:netherite_trapdoor",
+    "sswplus:netherite_pressure_plate",
+    "sswplus:netherite_button",
+    "sswplus:netherite_chain",
+    "sswplus:netherite_nugget",
+    "sswplus:ancient_debris_slab",
+    "sswplus:ancient_debris_stairs",
+    "sswplus:ancient_debris_wall",
+    "sswplus:netherite_ladder",
+    "sswplus:netherite_sign",
+    "sswplus:netherite_hanging_sign",
+    "sswplus:netherite_cauldron",
+    "sswplus:netherite_lantern",
+    "sswplus:netherite_soul_lantern",
+    "sswplus:netherite_anvil"
+  ]
+}

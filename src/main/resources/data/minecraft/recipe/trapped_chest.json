@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "redstone",
+	"ingredients": [
+		{
+			"item": "minecraft:chest"
+		},
+		{
+			"tag": "aquifer:tripwire_hooks"
+		}
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:trapped_chest"
+	}
+}

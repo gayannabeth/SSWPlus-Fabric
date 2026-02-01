@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "leaf_wall",
+  "key": {
+    "#": {
+      "item": "minecraft:flowering_azalea_leaves"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sswplus:flowering_azalea_leaf_wall"
+  }
+}

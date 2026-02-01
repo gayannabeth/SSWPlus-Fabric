@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cartography_table",
+  "key": {
+    "#": {
+      "item": "minecraft:warped_planks"
+    },
+    "P": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    "PP",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:warped_fletching_table"
+  }
+}

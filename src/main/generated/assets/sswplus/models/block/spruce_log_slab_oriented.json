@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/orientable_slab_inside",
+  "textures": {
+    "bottom": "minecraft:block/spruce_log_top",
+    "inside": "sswplus:block/spruce_log_inside",
+    "side": "minecraft:block/spruce_log",
+    "top": "minecraft:block/spruce_log_top"
+  }
+}

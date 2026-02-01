@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sswplus:block/dirt_path_slab"
+    },
+    "type=double": {
+      "model": "sswplus:block/dirt_path_slab_double"
+    },
+    "type=top": {
+      "model": "sswplus:block/dirt_path_slab_top"
+    }
+  }
+}

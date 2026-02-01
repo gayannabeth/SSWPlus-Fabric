@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "leaf_carpet",
+  "key": {
+    "#": {
+      "item": "minecraft:azalea_leaves"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "sswplus:azalea_leaf_carpet"
+  }
+}

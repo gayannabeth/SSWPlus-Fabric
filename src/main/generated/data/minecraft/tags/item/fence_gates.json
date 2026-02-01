@@ -1,0 +1,9 @@
+{
+  "values": [
+    "sswplus:iron_fence_gate",
+    "sswplus:gold_fence_gate",
+    "sswplus:netherite_fence_gate",
+    "#sswplus:nether_brick_fence_gates",
+    "#sswplus:copper_fence_gates"
+  ]
+}

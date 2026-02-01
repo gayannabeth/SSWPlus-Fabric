@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:yellow_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sswplus:terracotta_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sswplus:yellow_terracotta_stairs_from_yellow_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stairs",
+      "has_dye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sswplus:yellow_terracotta_stairs_from_yellow_dye"
+    ]
+  }
+}

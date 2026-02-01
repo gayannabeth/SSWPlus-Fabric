@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sswplus:block/warped_nylium_slab"
+    },
+    "type=double": {
+      "model": "sswplus:block/warped_nylium_slab_double"
+    },
+    "type=top": {
+      "model": "sswplus:block/warped_nylium_slab_top"
+    }
+  }
+}

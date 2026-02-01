@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_ladder",
+  "key": {
+    "#": {
+      "item": "sswplus:crimson_stick"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "result": {
+    "count": 3,
+    "id": "sswplus:crimson_ladder"
+  }
+}

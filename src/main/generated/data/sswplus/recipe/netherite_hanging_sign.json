@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_block"
+    },
+    "^": {
+      "item": "sswplus:netherite_chain"
+    }
+  },
+  "pattern": [
+    "^ ^",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sswplus:netherite_hanging_sign"
+  }
+}

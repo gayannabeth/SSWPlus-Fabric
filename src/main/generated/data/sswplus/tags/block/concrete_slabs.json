@@ -1,0 +1,20 @@
+{
+  "values": [
+    "sswplus:white_concrete_slab",
+    "sswplus:light_gray_concrete_slab",
+    "sswplus:gray_concrete_slab",
+    "sswplus:black_concrete_slab",
+    "sswplus:brown_concrete_slab",
+    "sswplus:red_concrete_slab",
+    "sswplus:orange_concrete_slab",
+    "sswplus:yellow_concrete_slab",
+    "sswplus:lime_concrete_slab",
+    "sswplus:green_concrete_slab",
+    "sswplus:cyan_concrete_slab",
+    "sswplus:light_blue_concrete_slab",
+    "sswplus:blue_concrete_slab",
+    "sswplus:purple_concrete_slab",
+    "sswplus:magenta_concrete_slab",
+    "sswplus:pink_concrete_slab"
+  ]
+}

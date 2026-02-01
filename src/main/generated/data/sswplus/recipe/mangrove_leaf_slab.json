@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "leaf_slab",
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_leaves"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sswplus:mangrove_leaf_slab"
+  }
+}

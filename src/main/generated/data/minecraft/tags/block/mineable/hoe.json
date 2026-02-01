@@ -1,0 +1,23 @@
+{
+  "values": [
+    "sswplus:moss_slab",
+    "sswplus:moss_stairs",
+    "sswplus:moss_wall",
+    "sswplus:shroomlight_slab",
+    "sswplus:shroomlight_stairs",
+    "sswplus:shroomlight_wall",
+    "sswplus:dried_kelp_slab",
+    "sswplus:dried_kelp_stairs",
+    "sswplus:dried_kelp_wall",
+    "sswplus:hay_slab",
+    "sswplus:hay_stairs",
+    "sswplus:hay_wall",
+    "sswplus:sculk_slab",
+    "sswplus:sculk_stairs",
+    "sswplus:sculk_wall",
+    "#sswplus:wart_blocks",
+    "#sswplus:wart_slabs",
+    "#sswplus:wart_stairs",
+    "#sswplus:wart_walls"
+  ]
+}

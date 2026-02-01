@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "smithing_table",
+  "ingredients": [
+    {
+      "tag": "aquifer:smithing_tables"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:smithing_table"
+  }
+}

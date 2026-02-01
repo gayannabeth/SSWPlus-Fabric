@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#sswplus:copper_blocks/unwaxed",
+    "#sswplus:copper_slabs/unwaxed",
+    "#sswplus:copper_stairs/unwaxed",
+    "#sswplus:copper_walls/unwaxed",
+    "#sswplus:copper_fences/unwaxed",
+    "#sswplus:copper_fence_gates/unwaxed",
+    "#sswplus:copper_bars/unwaxed",
+    "#sswplus:copper_doors/unwaxed",
+    "#sswplus:copper_trapdoors/unwaxed",
+    "#sswplus:copper_pressure_plates/unwaxed",
+    "#sswplus:copper_buttons/unwaxed",
+    "#sswplus:copper_buttons/unwaxed",
+    "#sswplus:copper_bulbs/unwaxed",
+    "#sswplus:unwaxed_copper_ladders",
+    "#sswplus:all_unwaxed_copper_signs",
+    "#sswplus:unwaxed_copper_cauldrons",
+    "#sswplus:unwaxed_copper_lanterns"
+  ]
+}

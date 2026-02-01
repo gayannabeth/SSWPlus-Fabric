@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "Q": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "W": {
+      "item": "sswplus:netherite_nugget"
+    }
+  },
+  "pattern": [
+    "QWQ",
+    "QWQ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:netherite_fence_gate"
+  }
+}

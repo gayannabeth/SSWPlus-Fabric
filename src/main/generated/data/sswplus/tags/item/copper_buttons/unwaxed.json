@@ -1,0 +1,12 @@
+{
+  "values": [
+    "sswplus:copper_button",
+    "sswplus:exposed_copper_button",
+    "sswplus:weathered_copper_button",
+    "sswplus:oxidized_copper_button",
+    "sswplus:copper_chain",
+    "sswplus:exposed_copper_chain",
+    "sswplus:weathered_copper_chain",
+    "sswplus:oxidized_copper_chain"
+  ]
+}

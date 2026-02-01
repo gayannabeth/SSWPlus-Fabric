@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/bamboo_planks",
+    "east": "sswplus:block/bamboo_crafting_table_side",
+    "north": "sswplus:block/bamboo_crafting_table_front",
+    "particle": "sswplus:block/bamboo_crafting_table_front",
+    "south": "sswplus:block/bamboo_crafting_table_side",
+    "up": "sswplus:block/bamboo_crafting_table_top",
+    "west": "sswplus:block/bamboo_crafting_table_front"
+  }
+}

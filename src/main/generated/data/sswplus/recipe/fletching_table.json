@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "fletching_table",
+  "ingredients": [
+    {
+      "tag": "aquifer:fletching_tables"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:fletching_table"
+  }
+}

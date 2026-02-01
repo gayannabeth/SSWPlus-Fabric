@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sswplus:block/warped_wood_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/warped_hyphae"
+    },
+    "type=top": {
+      "model": "sswplus:block/warped_wood_slab_top"
+    }
+  }
+}

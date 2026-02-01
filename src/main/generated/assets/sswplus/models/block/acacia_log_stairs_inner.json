@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/inner_stairs_inside",
+  "textures": {
+    "bottom": "minecraft:block/acacia_log_top",
+    "inside": "sswplus:block/acacia_log_inside",
+    "side": "minecraft:block/acacia_log",
+    "top": "minecraft:block/acacia_log_top"
+  }
+}

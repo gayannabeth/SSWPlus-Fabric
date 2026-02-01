@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stick",
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:bamboo_planks"
+      },
+      {
+        "item": "minecraft:bamboo_mosaic"
+      }
+    ]
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "sswplus:bamboo_stick"
+  }
+}

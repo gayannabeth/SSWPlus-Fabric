@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_barrel",
+  "key": {
+    "P": {
+      "item": "minecraft:crimson_planks"
+    },
+    "S": {
+      "item": "minecraft:crimson_slab"
+    }
+  },
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:crimson_barrel"
+  }
+}

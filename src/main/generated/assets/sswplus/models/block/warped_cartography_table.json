@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/warped_planks",
+    "east": "sswplus:block/warped_cartography_table_side3",
+    "north": "sswplus:block/warped_cartography_table_side3",
+    "particle": "sswplus:block/warped_cartography_table_side3",
+    "south": "sswplus:block/warped_cartography_table_side1",
+    "up": "sswplus:block/warped_cartography_table_top",
+    "west": "sswplus:block/warped_cartography_table_side2"
+  }
+}

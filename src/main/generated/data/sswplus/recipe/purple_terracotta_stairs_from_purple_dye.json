@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "terracotta_stairs",
+  "key": {
+    "#": {
+      "item": "sswplus:terracotta_stairs"
+    },
+    "D": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sswplus:purple_terracotta_stairs"
+  }
+}

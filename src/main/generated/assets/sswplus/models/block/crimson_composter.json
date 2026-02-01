@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/template_composter",
+  "textures": {
+    "bottom": "sswplus:block/crimson_composter_bottom",
+    "inside": "sswplus:block/crimson_composter_bottom",
+    "side": "sswplus:block/crimson_composter_side",
+    "top": "sswplus:block/crimson_composter_top"
+  }
+}

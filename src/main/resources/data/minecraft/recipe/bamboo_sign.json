@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "wooden_sign",
+	"key": {
+		"#": {
+			"tag": "sswplus:bamboo_planks"
+		},
+		"X": {
+			"item": "sswplus:bamboo_stick"
+		}
+	},
+	"pattern": [
+		"###",
+		"###",
+		" X "
+	],
+	"result": {
+		"count": 3,
+		"id": "minecraft:bamboo_sign"
+	}
+}

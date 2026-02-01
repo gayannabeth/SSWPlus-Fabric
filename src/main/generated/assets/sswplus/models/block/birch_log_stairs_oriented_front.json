@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/oriented_stairs_front_inside",
+  "textures": {
+    "bottom": "minecraft:block/birch_log_top",
+    "inside": "sswplus:block/birch_log_inside",
+    "side": "minecraft:block/birch_log",
+    "top": "minecraft:block/birch_log_top"
+  }
+}

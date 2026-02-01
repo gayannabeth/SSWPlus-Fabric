@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "bookshelf",
+  "key": {
+    "#": {
+      "tag": "sswplus:bamboo_planks"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "pattern": [
+    "###",
+    "BBB",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:bamboo_bookshelf"
+  }
+}

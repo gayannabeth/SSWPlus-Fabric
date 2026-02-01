@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:nether_quartz_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "sswplus:nether_quartz_ore_wall"
+  }
+}

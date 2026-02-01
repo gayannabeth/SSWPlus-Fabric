@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_chest",
+  "key": {
+    "#": {
+      "tag": "sswplus:bamboo_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:bamboo_chest"
+  }
+}

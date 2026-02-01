@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wooden_ladder",
+  "ingredients": [
+    {
+      "tag": "aquifer:wooden_ladders"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:ladder"
+  }
+}

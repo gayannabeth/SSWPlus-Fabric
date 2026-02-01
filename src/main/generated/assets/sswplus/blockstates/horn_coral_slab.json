@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sswplus:block/horn_coral_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/horn_coral_block"
+    },
+    "type=top": {
+      "model": "sswplus:block/horn_coral_slab_top"
+    }
+  }
+}

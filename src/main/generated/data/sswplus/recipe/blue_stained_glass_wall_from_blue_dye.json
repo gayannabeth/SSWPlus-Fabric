@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "glass_wall",
+  "key": {
+    "#": {
+      "item": "sswplus:glass_wall"
+    },
+    "D": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sswplus:blue_stained_glass_wall"
+  }
+}

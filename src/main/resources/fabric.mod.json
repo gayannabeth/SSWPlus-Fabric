@@ -1,0 +1,53 @@
+{
+	"schemaVersion": 1,
+	"id": "sswplus",
+	"version": "${version}",
+	"name": "Stairs Slabs Walls+",
+	"description": "A simple mod to add additional Stairs, Slabs, Walls, and more for vanilla block types!",
+	"authors": [
+		"gayannabeth",
+		"Montanoceratops",
+		"Ashley"
+	],
+	"contact": {
+		"email": "mountainspring379@gmail.com",
+		"discord": "https://discord.gg/8KZvZHq",
+		"sources": "https://github.com/gayannabeth/SSWPlus-Fabric"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sswplus/icon.png",
+	"environment": "*",
+	"accessWidener" : "sswplus.classtweaker",
+	"entrypoints": {
+		"main": [
+			"gay.mountainspring.sswplus.SSWPlus"
+		],
+		"client": [
+			"gay.mountainspring.sswplus.client.SSWPClient"
+		],
+		"fabric-datagen": [
+			"gay.mountainspring.sswplus.datagen.SSWPDataGen"
+		],
+		"modmenu": [
+			"gay.mountainspring.sswplus.client.modmenu.SSWPModMenu"
+		]
+	},
+	"mixins": [
+		"sswplus.mixins.json",
+		{
+			"config": "sswplus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cloth-config": "*",
+		"aquifer": "*"
+	},
+	"suggests": {
+		
+	}
+}

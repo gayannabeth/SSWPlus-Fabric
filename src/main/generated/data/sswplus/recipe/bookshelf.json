@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bookshelf",
+  "ingredients": [
+    {
+      "tag": "c:bookshelves"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bookshelf"
+  }
+}

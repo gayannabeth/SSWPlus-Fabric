@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:redstone_lamp"
+  },
+  "result": {
+    "count": 1,
+    "id": "sswplus:redstone_lamp_wall"
+  }
+}

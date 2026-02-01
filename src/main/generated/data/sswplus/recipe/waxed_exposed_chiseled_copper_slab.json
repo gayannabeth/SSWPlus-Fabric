@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "waxed_exposed_chiseled_copper_slab",
+  "key": {
+    "#": {
+      "item": "minecraft:waxed_exposed_chiseled_copper"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sswplus:waxed_exposed_chiseled_copper_slab"
+  }
+}

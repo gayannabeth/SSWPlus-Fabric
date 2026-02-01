@@ -1,0 +1,22 @@
+{
+  "values": [
+    "sswplus:dirt_path_slab",
+    "sswplus:dirt_path_stairs",
+    "sswplus:dirt_path_wall",
+    "sswplus:clay_slab",
+    "sswplus:clay_stairs",
+    "sswplus:clay_wall",
+    "sswplus:snow_slab",
+    "sswplus:snow_stairs",
+    "sswplus:snow_wall",
+    "sswplus:soul_sand_slab",
+    "sswplus:soul_sand_stairs",
+    "sswplus:soul_sand_wall",
+    "sswplus:soul_soil_slab",
+    "sswplus:soul_soil_stairs",
+    "sswplus:soul_soil_wall",
+    "#sswplus:dirt_slabs",
+    "#sswplus:dirt_stairs",
+    "#sswplus:dirt_walls"
+  ]
+}

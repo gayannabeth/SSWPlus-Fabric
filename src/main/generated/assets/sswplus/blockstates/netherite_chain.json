@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sswplus:block/netherite_chain",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sswplus:block/netherite_chain"
+    },
+    "axis=z": {
+      "model": "sswplus:block/netherite_chain",
+      "x": 90
+    }
+  }
+}

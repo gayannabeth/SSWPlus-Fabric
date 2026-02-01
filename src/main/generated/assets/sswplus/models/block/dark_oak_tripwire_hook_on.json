@@ -1,0 +1,6 @@
+{
+  "parent": "aquifer:block/template_tripwire_hook_on",
+  "textures": {
+    "base": "minecraft:block/dark_oak_planks"
+  }
+}

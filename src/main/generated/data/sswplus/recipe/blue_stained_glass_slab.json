@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "glass_slab",
+  "key": {
+    "#": {
+      "item": "minecraft:blue_stained_glass"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sswplus:blue_stained_glass_slab"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "tripwire_hook",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:jungle_planks"
+    },
+    "S": {
+      "item": "sswplus:jungle_stick"
+    }
+  },
+  "pattern": [
+    "I",
+    "S",
+    "P"
+  ],
+  "result": {
+    "count": 2,
+    "id": "sswplus:jungle_tripwire_hook"
+  }
+}

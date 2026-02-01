@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "sswplus:block/netherite_lantern"
+    },
+    "hanging=true": {
+      "model": "sswplus:block/netherite_lantern_hanging"
+    }
+  }
+}

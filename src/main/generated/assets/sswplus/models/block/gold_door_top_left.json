@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "sswplus:block/gold_door_bottom",
+    "top": "sswplus:block/gold_door_top"
+  }
+}

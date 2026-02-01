@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "lectern",
+  "key": {
+    "B": {
+      "item": "sswplus:bamboo_bookshelf"
+    },
+    "S": [
+      {
+        "item": "minecraft:bamboo_slab"
+      },
+      {
+        "item": "minecraft:bamboo_mosaic_slab"
+      }
+    ]
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:bamboo_lectern"
+  }
+}

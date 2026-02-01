@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_chest",
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:mangrove_chest"
+  }
+}

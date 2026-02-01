@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "lit=false,type=bottom": {
+      "model": "sswplus:block/deepslate_redstone_ore_slab"
+    },
+    "lit=false,type=double": {
+      "model": "minecraft:block/deepslate_redstone_ore"
+    },
+    "lit=false,type=top": {
+      "model": "sswplus:block/deepslate_redstone_ore_slab_top"
+    },
+    "lit=true,type=bottom": {
+      "model": "sswplus:block/deepslate_redstone_ore_slab"
+    },
+    "lit=true,type=double": {
+      "model": "minecraft:block/deepslate_redstone_ore"
+    },
+    "lit=true,type=top": {
+      "model": "sswplus:block/deepslate_redstone_ore_slab_top"
+    }
+  }
+}

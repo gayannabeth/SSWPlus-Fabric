@@ -1,0 +1,33 @@
+{
+  "variants": {
+    "axis=x,type=bottom": {
+      "model": "sswplus:block/stripped_cherry_log_slab_oriented",
+      "y": 90
+    },
+    "axis=x,type=double": {
+      "model": "minecraft:block/stripped_cherry_log_x"
+    },
+    "axis=x,type=top": {
+      "model": "sswplus:block/stripped_cherry_log_slab_oriented_top",
+      "y": 90
+    },
+    "axis=y,type=bottom": {
+      "model": "sswplus:block/stripped_cherry_log_slab"
+    },
+    "axis=y,type=double": {
+      "model": "minecraft:block/stripped_cherry_log_y"
+    },
+    "axis=y,type=top": {
+      "model": "sswplus:block/stripped_cherry_log_slab_top"
+    },
+    "axis=z,type=bottom": {
+      "model": "sswplus:block/stripped_cherry_log_slab_oriented"
+    },
+    "axis=z,type=double": {
+      "model": "minecraft:block/stripped_cherry_log_z"
+    },
+    "axis=z,type=top": {
+      "model": "sswplus:block/stripped_cherry_log_slab_oriented_top"
+    }
+  }
+}

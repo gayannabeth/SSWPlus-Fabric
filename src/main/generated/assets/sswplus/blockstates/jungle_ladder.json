@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "sswplus:block/jungle_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sswplus:block/jungle_ladder"
+    },
+    "facing=south": {
+      "model": "sswplus:block/jungle_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sswplus:block/jungle_ladder",
+      "y": 270
+    }
+  }
+}

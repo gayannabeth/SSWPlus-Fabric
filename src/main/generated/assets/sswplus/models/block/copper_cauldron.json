@@ -1,0 +1,9 @@
+{
+  "parent": "aquifer:block/template_cauldron_empty",
+  "textures": {
+    "bottom": "sswplus:block/copper_cauldron_bottom",
+    "inside": "sswplus:block/copper_cauldron_inner",
+    "side": "sswplus:block/copper_cauldron_side",
+    "top": "sswplus:block/copper_cauldron_top"
+  }
+}

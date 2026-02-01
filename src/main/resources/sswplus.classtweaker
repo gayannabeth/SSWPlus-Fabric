@@ -1,0 +1,4 @@
+classTweaker v1 named
+accessible field net/minecraft/screen/AnvilScreenHandler levelCost Lnet/minecraft/screen/Property;
+accessible field net/minecraft/screen/AnvilScreenHandler repairItemUsage I
+accessible field net/minecraft/screen/AnvilScreenHandler newItemName Ljava/lang/String;

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_trapped_chest",
+  "ingredients": [
+    {
+      "item": "sswplus:warped_chest"
+    },
+    {
+      "tag": "aquifer:tripwire_hooks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:warped_trapped_chest"
+  }
+}

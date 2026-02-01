@@ -1,0 +1,7 @@
+{
+  "parent": "aquifer:block/template_wall_side_tall_column",
+  "textures": {
+    "end": "minecraft:block/sandstone_top",
+    "side": "minecraft:block/chiseled_sandstone"
+  }
+}

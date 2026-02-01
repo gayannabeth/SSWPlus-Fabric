@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "minecraft:copper_ingot"
+    },
+    "W": {
+      "item": "sswplus:copper_nugget"
+    }
+  },
+  "pattern": [
+    "QWQ",
+    "QWQ"
+  ],
+  "result": {
+    "count": 3,
+    "id": "sswplus:copper_fence"
+  }
+}

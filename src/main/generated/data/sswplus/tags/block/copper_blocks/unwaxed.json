@@ -1,0 +1,20 @@
+{
+  "values": [
+    "minecraft:copper_block",
+    "minecraft:chiseled_copper",
+    "minecraft:copper_grate",
+    "minecraft:cut_copper",
+    "minecraft:exposed_copper",
+    "minecraft:exposed_chiseled_copper",
+    "minecraft:exposed_copper_grate",
+    "minecraft:exposed_cut_copper",
+    "minecraft:weathered_copper",
+    "minecraft:weathered_chiseled_copper",
+    "minecraft:weathered_copper_grate",
+    "minecraft:weathered_cut_copper",
+    "minecraft:oxidized_copper",
+    "minecraft:oxidized_chiseled_copper",
+    "minecraft:oxidized_copper_grate",
+    "minecraft:oxidized_cut_copper"
+  ]
+}

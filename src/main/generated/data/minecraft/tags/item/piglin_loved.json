@@ -1,0 +1,28 @@
+{
+  "values": [
+    "sswplus:gilded_blackstone_slab",
+    "sswplus:gilded_blackstone_stairs",
+    "sswplus:gilded_blackstone_wall",
+    "sswplus:gold_slab",
+    "sswplus:gold_stairs",
+    "sswplus:gold_wall",
+    "sswplus:gold_fence",
+    "sswplus:gold_fence_gate",
+    "sswplus:gold_bars",
+    "sswplus:gold_door",
+    "sswplus:gold_trapdoor",
+    "sswplus:gold_button",
+    "sswplus:gold_chain",
+    "sswplus:raw_gold_slab",
+    "sswplus:raw_gold_stairs",
+    "sswplus:raw_gold_wall",
+    "sswplus:gold_ladder",
+    "sswplus:gold_sign",
+    "sswplus:gold_hanging_sign",
+    "sswplus:gold_cauldron",
+    "sswplus:gold_lantern",
+    "#sswplus:gold_ore_slabs",
+    "#sswplus:gold_ore_stairs",
+    "#sswplus:gold_ore_walls"
+  ]
+}

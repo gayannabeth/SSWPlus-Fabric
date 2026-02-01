@@ -1,0 +1,6 @@
+{
+  "parent": "aquifer:block/template_chain",
+  "textures": {
+    "texture": "sswplus:block/exposed_copper_chain"
+  }
+}

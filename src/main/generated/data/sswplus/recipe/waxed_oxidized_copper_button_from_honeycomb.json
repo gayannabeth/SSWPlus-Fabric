@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "sswplus:oxidized_copper_button"
+    },
+    {
+      "tag": "aquifer:waxables"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:waxed_oxidized_copper_button"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "values": [
+    "sswplus:white_concrete_wall",
+    "sswplus:light_gray_concrete_wall",
+    "sswplus:gray_concrete_wall",
+    "sswplus:black_concrete_wall",
+    "sswplus:brown_concrete_wall",
+    "sswplus:red_concrete_wall",
+    "sswplus:orange_concrete_wall",
+    "sswplus:yellow_concrete_wall",
+    "sswplus:lime_concrete_wall",
+    "sswplus:green_concrete_wall",
+    "sswplus:cyan_concrete_wall",
+    "sswplus:light_blue_concrete_wall",
+    "sswplus:blue_concrete_wall",
+    "sswplus:purple_concrete_wall",
+    "sswplus:magenta_concrete_wall",
+    "sswplus:pink_concrete_wall"
+  ]
+}

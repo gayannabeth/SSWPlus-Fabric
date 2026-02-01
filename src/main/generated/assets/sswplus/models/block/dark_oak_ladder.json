@@ -1,0 +1,6 @@
+{
+  "parent": "aquifer:block/ladder",
+  "textures": {
+    "texture": "sswplus:block/dark_oak_ladder"
+  }
+}

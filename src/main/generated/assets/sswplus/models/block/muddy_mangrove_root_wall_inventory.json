@@ -1,0 +1,7 @@
+{
+  "parent": "aquifer:block/wall_column_inventory",
+  "textures": {
+    "end": "minecraft:block/muddy_mangrove_roots_top",
+    "side": "minecraft:block/muddy_mangrove_roots_side"
+  }
+}

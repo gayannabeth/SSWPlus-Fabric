@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "minecraft:shears"
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "functions": [
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "sswplus:acacia_leaf_slab",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ],
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "sswplus:acacia_leaf_slab"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
