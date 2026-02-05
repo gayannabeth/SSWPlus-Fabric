@@ -1,6 +1,6 @@
 {
   "parent": "aquifer:block/template_leaves_wall_post",
   "textures": {
-    "wall": "minecraft:block/flowering_azalea_leaves"
+    "all": "minecraft:block/flowering_azalea_leaves"
   }
 }

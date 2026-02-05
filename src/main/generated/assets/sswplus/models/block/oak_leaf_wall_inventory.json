@@ -1,6 +1,6 @@
 {
   "parent": "aquifer:block/leaves_wall_inventory",
   "textures": {
-    "wall": "minecraft:block/oak_leaves"
+    "all": "minecraft:block/oak_leaves"
   }
 }

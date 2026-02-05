@@ -1,8 +1,6 @@
 {
   "parent": "aquifer:block/leaves_stairs",
   "textures": {
-    "bottom": "minecraft:block/azalea_leaves",
-    "side": "minecraft:block/azalea_leaves",
-    "top": "minecraft:block/azalea_leaves"
+    "all": "minecraft:block/azalea_leaves"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "aquifer:block/leaves_carpet",
   "textures": {
-    "texture": "minecraft:block/mangrove_leaves"
+    "all": "minecraft:block/mangrove_leaves"
   }
 }

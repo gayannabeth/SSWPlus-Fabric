@@ -1,6 +1,6 @@
 {
   "parent": "aquifer:block/template_leaves_wall_side_tall",
   "textures": {
-    "wall": "minecraft:block/spruce_leaves"
+    "all": "minecraft:block/spruce_leaves"
   }
 }

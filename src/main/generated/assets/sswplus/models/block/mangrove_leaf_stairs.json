@@ -1,8 +1,6 @@
 {
   "parent": "aquifer:block/leaves_stairs",
   "textures": {
-    "bottom": "minecraft:block/mangrove_leaves",
-    "side": "minecraft:block/mangrove_leaves",
-    "top": "minecraft:block/mangrove_leaves"
+    "all": "minecraft:block/mangrove_leaves"
   }
 }
