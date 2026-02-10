@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.google.common.collect.Lists;
 
+import gay.mountainspring.aquifer.Aquifer;
 import gay.mountainspring.sswplus.item.SSWPItems;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -15,7 +16,7 @@ public class SSWPVanillaGroups {
 	private SSWPVanillaGroups() {}
 	
 	public static void init() {
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(Aquifer.SSWPLUS_ID, entries -> {
 			List<ItemStack> toRemove = Lists.newArrayList();
 			List<Item> remove = List.of(
 				Items.CRACKED_STONE_BRICKS,
@@ -1028,7 +1029,7 @@ public class SSWPVanillaGroups {
 					.stream().map(item -> item.getDefaultStack()).toList());
 		});
 		
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(entries -> {
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(Aquifer.SSWPLUS_ID, entries -> {
 			entries.addAfter(Items.PINK_WOOL,
 					SSWPItems.WHITE_WOOL_STAIRS,
 					SSWPItems.LIGHT_GRAY_WOOL_STAIRS,
@@ -1240,7 +1241,7 @@ public class SSWPVanillaGroups {
 			entries.addAfter(Items.GLASS_PANE, SSWPItems.TINTED_GLASS_PANE);
 		});
 		
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(Aquifer.SSWPLUS_ID, entries -> {
 			entries.addAfter(Items.MANGROVE_ROOTS, SSWPItems.MANGROVE_ROOT_CARPET);
 			
 			entries.addAfter(Items.OAK_LEAVES, SSWPItems.OAK_LEAF_CARPET);
@@ -1255,7 +1256,7 @@ public class SSWPVanillaGroups {
 			entries.addAfter(Items.FLOWERING_AZALEA_LEAVES, SSWPItems.FLOWERING_AZALEA_LEAF_CARPET);
 		});
 		
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(Aquifer.SSWPLUS_ID, entries -> {
 			entries.addAfter(Items.CHAIN,
 					SSWPItems.GOLD_CHAIN,
 					SSWPItems.NETHERITE_CHAIN,
@@ -1561,7 +1562,7 @@ public class SSWPVanillaGroups {
 					SSWPItems.INFESTED_DRIPSTONE_BLOCK);
 		});
 		
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(Aquifer.SSWPLUS_ID, entries -> {
 			entries.addAfter(Items.REDSTONE_BLOCK,
 					SSWPItems.REDSTONE_STAIRS,
 					SSWPItems.REDSTONE_SLAB,
@@ -1579,7 +1580,7 @@ public class SSWPVanillaGroups {
 					SSWPItems.IRON_FENCE_GATE);
 		});
 		
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(Aquifer.SSWPLUS_ID, entries -> {
 			entries.addAfter(Items.IRON_NUGGET, SSWPItems.COPPER_NUGGET);
 			entries.addAfter(Items.GOLD_NUGGET, SSWPItems.NETHERITE_NUGGET);
 			
