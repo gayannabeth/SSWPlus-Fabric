@@ -1140,8 +1140,8 @@ public class SSWPBlocks {
 	public static final Block INFESTED_POLISHED_TUFF = register("infested_polished_tuff", new InfestedBlock(Blocks.POLISHED_TUFF, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).sounds(BlockSoundGroup.POLISHED_TUFF)));
 	public static final Block INFESTED_TUFF_BRICKS = register("infested_tuff_bricks", new InfestedBlock(Blocks.TUFF_BRICKS, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).sounds(BlockSoundGroup.TUFF_BRICKS)));
 	public static final Block INFESTED_CHISELED_TUFF_BRICKS = register("infested_chiseled_tuff_bricks", new InfestedBlock(Blocks.CHISELED_TUFF_BRICKS, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).sounds(BlockSoundGroup.TUFF_BRICKS)));
-	public static final Block INFESTED_CALCITE = register("infested_calcite", new InfestedBlock(Blocks.CALCITE, AbstractBlock.Settings.create().mapColor(MapColor.WHITE_GRAY)));
-	public static final Block INFESTED_DRIPSTONE_BLOCK = register("infested_dripstone_block", new InfestedBlock(Blocks.DRIPSTONE_BLOCK, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_RED)));
+	public static final Block INFESTED_CALCITE = register("infested_calcite", new InfestedBlock(Blocks.CALCITE, AbstractBlock.Settings.create().mapColor(MapColor.WHITE_GRAY).sounds(BlockSoundGroup.CALCITE)));
+	public static final Block INFESTED_DRIPSTONE_BLOCK = register("infested_dripstone_block", new InfestedBlock(Blocks.DRIPSTONE_BLOCK, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_RED).sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
 	
 	public static final Block OAK_LADDER = register("oak_ladder", createLadder());
 	public static final Block SPRUCE_LADDER = register("spruce_ladder", createLadder());
