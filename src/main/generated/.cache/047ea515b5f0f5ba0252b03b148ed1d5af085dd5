@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-05T15:51:24.1295031	Stairs Slabs Walls+/Tags for minecraft:block
+// 1.21.1	2026-02-11T13:11:47.4414568	Stairs Slabs Walls+/Tags for minecraft:block
 f1104e9902a8d19a53ceb1774da25b1dd1599694 data\sswplus\tags\block\sandstone\red.json
 c8aae6fa083906b52c2bafd943c2cdb3f273bc5c data\c\tags\block\chains.json
 1be4c34bef6d6fed3230a691d27b6997e1e7f9b4 data\aquifer\tags\block\crafting_tables.json
@@ -87,6 +87,7 @@ bf8800fde3a6bad7b6144b3bc3fcd2e5bd3ac8d9 data\aquifer\tags\block\propagule_may_p
 49bc2afbce0978f05322e420b1e14eda2c8282a7 data\sswplus\tags\block\dirt_walls.json
 c92f2b59a70635b58a4cda48c001a27cd9e7a169 data\sswplus\tags\block\copper_stairs\waxed.json
 fdd9d099768fb37b0144392c5d904396bf423636 data\sswplus\tags\block\all_waxed_copper_signs.json
+2d5a2b745fbe958f1103e608778df95084ebaeac data\c\tags\block\sandstone\walls.json
 0193992337e5136e1a4ade585c3868cbd02a3be4 data\sswplus\tags\block\prismarine_slabs.json
 8b09d8e911e92932d3720e6937a14d31b3e852c8 data\sswplus\tags\block\birch_slabs.json
 83cc1a9075ce626dbc635283dc951d3a856238c7 data\sswplus\tags\block\copper_signs.json
@@ -286,6 +287,7 @@ ae0203eddd1e2e992979b85b6d6f928013089318 data\sswplus\tags\block\ice_walls.json
 9b222b599e2bd2f7ea4a9f4fc00871bd068d8e12 data\sswplus\tags\block\nether_brick_fence_gates.json
 8d4b007c8c6a0080166ed2f8ccacf1c338478a54 data\minecraft\tags\block\mineable\shovel.json
 a5f069870ad01a8fde905b3b5fc35225fe3668fa data\minecraft\tags\block\fences.json
+1a15e0a2e70094d22e88053dbdbffcf9e6a05c2a data\c\tags\block\sandstone\red_walls.json
 ed480a46f11e013714569d3418b808d255a0819c data\sswplus\tags\block\unwaxed_copper_wall_hanging_signs.json
 b0d5f411f2a65e07fcebae8cc6123237987a9116 data\sswplus\tags\block\nylium_stairs.json
 189e7e7e54cef0b1cfda291c2f48093f7e9f6885 data\sswplus\tags\block\iron_ore_walls.json
@@ -294,6 +296,7 @@ e09ed10cb87f928d3aa21d0116a3c03e51e7c600 data\sswplus\tags\block\copper_ceiling_
 5223ef5189887e30c97da3711d95ca7c1e3f96d0 data\aquifer\tags\block\bars.json
 9a26106f915c02b1340499458ab371d1fe158f5c data\minecraft\tags\block\walls.json
 4e09e76a0f45adb15efd67513cc8029a68a13cfa data\c\tags\block\chests\wooden\trapped.json
+336c2600215ccff4a5e6fe0e230da1accc046057 data\c\tags\block\sandstone\uncolored_walls.json
 616c6a71f47f88d3a0f972c6f55dbef47477089b data\sswplus\tags\block\diamond_ore_slabs.json
 5b693bafc6f853770f841bb3991f8a7f6903af47 data\aquifer\tags\block\cartography_tables.json
 b97381c3fda4d4ca3e6564c0699dca4759f3a4c5 data\aquifer\tags\block\conduit_activating_blocks.json

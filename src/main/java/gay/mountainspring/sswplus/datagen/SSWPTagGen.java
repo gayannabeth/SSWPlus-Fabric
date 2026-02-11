@@ -3151,6 +3151,9 @@ public class SSWPTagGen {
 			this.getOrCreateTagBuilder(ConventionalBlockTags.UNCOLORED_SANDSTONE_STAIRS)
 			.addTag(SSWPTags.Blocks.BEIGE_SANDSTONE_STAIRS);
 			
+			this.getOrCreateTagBuilder(SSWPTags.Blocks.Conventional.UNCOLORED_SANDSTONE_WALLS)
+			.addTag(SSWPTags.Blocks.BEIGE_SANDSTONE_WALLS);
+			
 			this.getOrCreateTagBuilder(ConventionalBlockTags.RED_SANDSTONE_BLOCKS)
 			.addTag(SSWPTags.Blocks.RED_SANDSTONE);
 			
@@ -3159,6 +3162,13 @@ public class SSWPTagGen {
 			
 			this.getOrCreateTagBuilder(ConventionalBlockTags.RED_SANDSTONE_STAIRS)
 			.addTag(SSWPTags.Blocks.RED_SANDSTONE_STAIRS);
+			
+			this.getOrCreateTagBuilder(SSWPTags.Blocks.Conventional.RED_SANDSTONE_WALLS)
+			.addTag(SSWPTags.Blocks.RED_SANDSTONE_WALLS);
+			
+			this.getOrCreateTagBuilder(SSWPTags.Blocks.Conventional.SANDSTONE_WALLS)
+			.addTag(SSWPTags.Blocks.Conventional.UNCOLORED_SANDSTONE_WALLS)
+			.addTag(SSWPTags.Blocks.Conventional.RED_SANDSTONE_WALLS);
 			
 			this.getOrCreateTagBuilder(ConventionalBlockTags.NETHER_BRICK_FENCES)
 			.addTag(SSWPTags.Blocks.NETHER_BRICK_FENCES);
@@ -3708,6 +3718,10 @@ public class SSWPTagGen {
 			this.copy(BlockTags.BUTTONS, ItemTags.BUTTONS);
 			this.copy(BlockTags.ANVIL, ItemTags.ANVIL);
 			
+			this.copy(SSWPTags.Blocks.Conventional.SANDSTONE_WALLS, SSWPTags.Items.Conventional.SANDSTONE_WALLS);
+			this.copy(SSWPTags.Blocks.Conventional.UNCOLORED_SANDSTONE_WALLS, SSWPTags.Items.Conventional.UNCOLORED_SANDSTONE_WALLS);
+			this.copy(SSWPTags.Blocks.Conventional.RED_SANDSTONE_WALLS, SSWPTags.Items.Conventional.RED_SANDSTONE_WALLS);
+			
 			this.copy(ConventionalBlockTags.UNCOLORED_SANDSTONE_BLOCKS, ConventionalItemTags.UNCOLORED_SANDSTONE_BLOCKS);
 			this.copy(ConventionalBlockTags.UNCOLORED_SANDSTONE_SLABS, ConventionalItemTags.UNCOLORED_SANDSTONE_SLABS);
 			this.copy(ConventionalBlockTags.UNCOLORED_SANDSTONE_STAIRS, ConventionalItemTags.UNCOLORED_SANDSTONE_STAIRS);
@@ -3920,15 +3934,15 @@ public class SSWPTagGen {
 			this.getOrCreateTagBuilder(ConventionalItemTags.NETHER_BRICKS)
 			.add(SSWPItems.RED_NETHER_BRICK);
 			
-			this.getOrCreateTagBuilder(SSWPTags.Items.COPPER_NUGGETS)
+			this.getOrCreateTagBuilder(SSWPTags.Items.Conventional.COPPER_NUGGETS)
 			.add(SSWPItems.COPPER_NUGGET);
 			
-			this.getOrCreateTagBuilder(SSWPTags.Items.NETHERITE_NUGGETS)
+			this.getOrCreateTagBuilder(SSWPTags.Items.Conventional.NETHERITE_NUGGETS)
 			.add(SSWPItems.NETHERITE_NUGGET);
 			
 			this.getOrCreateTagBuilder(ConventionalItemTags.NUGGETS)
-			.addTag(SSWPTags.Items.COPPER_NUGGETS)
-			.addTag(SSWPTags.Items.NETHERITE_NUGGETS);
+			.addTag(SSWPTags.Items.Conventional.COPPER_NUGGETS)
+			.addTag(SSWPTags.Items.Conventional.NETHERITE_NUGGETS);
 		}
 	}
 }

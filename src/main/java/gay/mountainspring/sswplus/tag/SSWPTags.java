@@ -350,6 +350,16 @@ public class SSWPTags {
 		public static final TagKey<Block> CONVERTS_TO_MUD_STAIRS = create("converts_to_mud_stairs");
 		public static final TagKey<Block> CONVERTS_TO_MUD_WALL = create("converts_to_mud_wall");
 		
+		public static final class Conventional {
+			public static final TagKey<Block> SANDSTONE_WALLS = create("sandstone/walls");
+			public static final TagKey<Block> UNCOLORED_SANDSTONE_WALLS = create("sandstone/uncolored_walls");
+			public static final TagKey<Block> RED_SANDSTONE_WALLS = create("sandstone/red_walls");
+			
+			public static TagKey<Block> create(String path) {
+				return SSWPTags.Blocks.createConventional(path);
+			}
+		}
+		
 		public static TagKey<Block> create(String name) {
 			return SSWPTags.create(RegistryKeys.BLOCK, name);
 		}
@@ -674,8 +684,18 @@ public class SSWPTags {
 		public static final TagKey<Item> UNWAXED_COPPER_SOUL_LANTERNS = create("unwaxed_copper_soul_lanterns");
 		public static final TagKey<Item> WAXED_COPPER_SOUL_LANTERNS = create("waxed_copper_soul_lanterns");
 		
-		public static final TagKey<Item> COPPER_NUGGETS = createConventional("nuggets/copper");
-		public static final TagKey<Item> NETHERITE_NUGGETS = createConventional("nuggets/netherite");
+		public static final class Conventional {
+			public static final TagKey<Item> SANDSTONE_WALLS = create("sandstone/walls");
+			public static final TagKey<Item> UNCOLORED_SANDSTONE_WALLS = create("sandstone/uncolored_walls");
+			public static final TagKey<Item> RED_SANDSTONE_WALLS = create("sandstone/red_walls");
+			
+			public static final TagKey<Item> COPPER_NUGGETS = create("nuggets/copper");
+			public static final TagKey<Item> NETHERITE_NUGGETS = create("nuggets/netherite");
+			
+			public static final TagKey<Item> create(String path) {
+				return SSWPTags.Items.createConventional(path);
+			}
+		}
 		
 		public static TagKey<Item> create(String name) {
 			return SSWPTags.create(RegistryKeys.ITEM, name);

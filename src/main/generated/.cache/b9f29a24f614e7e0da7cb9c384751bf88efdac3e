@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-05T15:51:23.9855319	Stairs Slabs Walls+/Block Loot Tables
+// 1.21.1	2026-02-11T13:11:47.3497056	Stairs Slabs Walls+/Block Loot Tables
 15ab613772fe7992f5c3f20a6da2e6a9a699c24c data\sswplus\loot_table\blocks\cyan_wool_wall.json
 517ad248ab88c3c21c56a18b2a309332cc13375d data\sswplus\loot_table\blocks\mud_slab.json
 df000d5190382f903abe35a22d0292ed81e107b1 data\sswplus\loot_table\blocks\cut_red_sandstone_stairs.json
@@ -236,8 +236,8 @@ f18d79dbf7563444809672d7a56c625ccd4a6883 data\sswplus\loot_table\blocks\red_stai
 43ee12603a8be80dc4a4710e01fcb3550a4e63c0 data\sswplus\loot_table\blocks\spruce_log_stairs.json
 a705c853d1736c89beb679837de555277f844c39 data\sswplus\loot_table\blocks\bamboo_block_stairs.json
 7796de5e10389c831fff718be96103fad588da63 data\sswplus\loot_table\blocks\mangrove_wood_slab.json
-f9f2c0719f983a9c82838765b6ad35b1166e588f data\sswplus\loot_table\blocks\dirt_path_slab.json
 841fbfcbed9c858775259c5d65803d9c7e5efef6 data\sswplus\loot_table\blocks\dirt_wall.json
+f9f2c0719f983a9c82838765b6ad35b1166e588f data\sswplus\loot_table\blocks\dirt_path_slab.json
 19d6aabcbc85a6e6cf325c929922a5a82598cfdb data\sswplus\loot_table\blocks\waxed_chiseled_copper_stairs.json
 f2982bc80c4b0d07140d886da897ccd6785ce5cc data\sswplus\loot_table\blocks\dark_oak_wood_wall.json
 678a4f213250081de888d2e5f934c478abb58be9 data\sswplus\loot_table\blocks\dried_kelp_wall.json
