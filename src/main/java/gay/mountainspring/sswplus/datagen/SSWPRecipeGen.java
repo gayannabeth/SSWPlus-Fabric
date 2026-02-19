@@ -386,7 +386,7 @@ public final class SSWPRecipeGen extends FabricRecipeProvider {
 		this.all(Items.ICE, SSWPItems.ICE_SLAB, SSWPItems.ICE_STAIRS, SSWPItems.ICE_WALL).accept(exp);
 		this.all(Items.PACKED_ICE, SSWPItems.PACKED_ICE_SLAB, SSWPItems.PACKED_ICE_STAIRS, SSWPItems.PACKED_ICE_WALL).accept(exp);
 		this.all(Items.BLUE_ICE, SSWPItems.BLUE_ICE_SLAB, SSWPItems.BLUE_ICE_STAIRS, SSWPItems.BLUE_ICE_WALL).accept(exp);
-		this.all(Items.SNOW, SSWPItems.SNOW_SLAB, SSWPItems.SNOW_STAIRS, SSWPItems.SNOW_WALL).accept(exp);
+		this.all(Items.SNOW_BLOCK, SSWPItems.SNOW_SLAB, SSWPItems.SNOW_STAIRS, SSWPItems.SNOW_WALL).accept(exp);
 		
 		this.allNotStone(Items.MOSS_BLOCK, SSWPItems.MOSS_SLAB, SSWPItems.MOSS_STAIRS, SSWPItems.MOSS_WALL).accept(exp);
 		

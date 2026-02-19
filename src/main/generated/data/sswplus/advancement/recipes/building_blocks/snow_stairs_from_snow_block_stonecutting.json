@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_snow": {
+    "has_snow_block": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:snow"
+            "items": "minecraft:snow_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "sswplus:snow_slab_from_snow_stonecutting"
+        "recipe": "sswplus:snow_stairs_from_snow_block_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_snow"
+      "has_snow_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "sswplus:snow_slab_from_snow_stonecutting"
+      "sswplus:snow_stairs_from_snow_block_stonecutting"
     ]
   }
 }
