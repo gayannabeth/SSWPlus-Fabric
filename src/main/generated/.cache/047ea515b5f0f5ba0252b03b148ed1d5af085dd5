@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-19T15:23:35.8005215	Stairs Slabs Walls+/Tags for minecraft:block
+// 1.21.1	2026-02-19T19:09:33.1923747	Stairs Slabs Walls+/Tags for minecraft:block
 f1104e9902a8d19a53ceb1774da25b1dd1599694 data\sswplus\tags\block\sandstone\red.json
 c8aae6fa083906b52c2bafd943c2cdb3f273bc5c data\c\tags\block\chains.json
 1be4c34bef6d6fed3230a691d27b6997e1e7f9b4 data\aquifer\tags\block\crafting_tables.json
@@ -150,8 +150,8 @@ ee25cdb7829e66a7ba122f31c1026c97dea5f5ba data\sswplus\tags\block\copper_trapdoor
 6af502744e24a168abe424d782274ee0c2b1b325 data\sswplus\tags\block\nether_brick_walls.json
 e176f3f095958462df8a01d01a73d1e968b5d26b data\sswplus\tags\block\unwaxed_copper_cauldrons.json
 3603d7c644f71df43167b118bd37497c1db25c02 data\sswplus\tags\block\terracotta_walls.json
-3995a9f91bf0fe603271cd9c21317595312b71c6 data\sswplus\tags\block\copper_fences.json
 d3fc61dd858c2de46d30a0f93087c337e86b8ce4 data\sswplus\tags\block\copper_bars.json
+3995a9f91bf0fe603271cd9c21317595312b71c6 data\sswplus\tags\block\copper_fences.json
 66f0761ab893a5f7c6638e3226e98ee343f70aa6 data\sswplus\tags\block\purpur_slabs.json
 bdcc1e9f59d10203cc8153f16295e30a00026b8f data\sswplus\tags\block\quartz_ore_stairs.json
 1d4937c700e82cc2032a7fad2ed9b636fec5db43 data\c\tags\block\dyed\light_gray.json

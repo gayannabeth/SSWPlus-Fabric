@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-19T15:23:35.6590052	Stairs Slabs Walls+/Block Loot Tables
+// 1.21.1	2026-02-19T19:09:33.0650322	Stairs Slabs Walls+/Block Loot Tables
 15ab613772fe7992f5c3f20a6da2e6a9a699c24c data\sswplus\loot_table\blocks\cyan_wool_wall.json
 517ad248ab88c3c21c56a18b2a309332cc13375d data\sswplus\loot_table\blocks\mud_slab.json
 df000d5190382f903abe35a22d0292ed81e107b1 data\sswplus\loot_table\blocks\cut_red_sandstone_stairs.json
@@ -695,8 +695,8 @@ afaa346ffe989bbbd35d8ab575740c3f4bdeebaa data\sswplus\loot_table\blocks\oak_book
 ea134bf58e6de286c6d5769229dfce10c3fcc6f7 data\sswplus\loot_table\blocks\cracked_nether_brick_slab.json
 68748702b43473e64192c27ebd4449db1e178a89 data\sswplus\loot_table\blocks\deepslate_iron_ore_wall.json
 4a74d1bb2b5a5a77ff7dbee19a7e4e032f646327 data\sswplus\loot_table\blocks\amethyst_wall.json
-ad38d672a86c486445b680e9f1bc9760b82f81b9 data\sswplus\loot_table\blocks\gold_ore_wall.json
 a0df18a7bddf482323a90a7dd94ae2a6a99b73d2 data\sswplus\loot_table\blocks\bubble_coral_slab.json
+ad38d672a86c486445b680e9f1bc9760b82f81b9 data\sswplus\loot_table\blocks\gold_ore_wall.json
 941b441883e8a25412e6cdce342418ccf0ead0d0 data\sswplus\loot_table\blocks\deepslate_copper_ore_wall.json
 4565cb947075814302591818fd1ad63405b4f61a data\sswplus\loot_table\blocks\weathered_copper_powder_snow_cauldron.json
 45aa047fc07b9315ddf8d045a21c12909e4eebb5 data\sswplus\loot_table\blocks\coarse_dirt_wall.json
