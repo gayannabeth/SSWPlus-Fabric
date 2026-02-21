@@ -1979,7 +1979,7 @@ public class SSWPTagGen {
 			.addTag(SSWPTags.Blocks.DIRT_STAIRS)
 			.addTag(SSWPTags.Blocks.DIRT_WALLS);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.WITHER_ROSE_MAY_PLACE_ON)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_WITHER_ROSE)
 			.add(SSWPBlocks.NETHERRACK_SLAB,
 					SSWPBlocks.NETHERRACK_STAIRS,
 					SSWPBlocks.NETHERRACK_WALL,
@@ -1990,12 +1990,12 @@ public class SSWPTagGen {
 					SSWPBlocks.SOUL_SOIL_STAIRS,
 					SSWPBlocks.SOUL_SOIL_WALL);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.NETHER_WART_GROWABLE)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_NETHER_WART)
 			.add(SSWPBlocks.SOUL_SAND_SLAB,
 					SSWPBlocks.SOUL_SAND_STAIRS,
 					SSWPBlocks.SOUL_SAND_WALL);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.NETHER_PLANT_MAY_PLACE_ON)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_NETHER_PLANT)
 			.add(SSWPBlocks.SOUL_SOIL_SLAB,
 					SSWPBlocks.SOUL_SOIL_STAIRS,
 					SSWPBlocks.SOUL_SOIL_WALL)
@@ -2003,12 +2003,12 @@ public class SSWPTagGen {
 			.addTag(SSWPTags.Blocks.NYLIUM_STAIRS)
 			.addTag(SSWPTags.Blocks.NYLIUM_WALLS);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.NETHER_FUNGUS_MAY_PLACE_ON)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_NETHER_FUNGUS)
 			.add(SSWPBlocks.MYCELIUM_SLAB,
 					SSWPBlocks.MYCELIUM_STAIRS,
 					SSWPBlocks.MYCELIUM_WALL);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.COCOA_MAY_GROW_ON)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_COCOA)
 			.add(SSWPBlocks.JUNGLE_LOG_SLAB,
 					SSWPBlocks.JUNGLE_LOG_STAIRS,
 					SSWPBlocks.JUNGLE_LOG_WALL,
@@ -2022,12 +2022,12 @@ public class SSWPTagGen {
 					SSWPBlocks.STRIPPED_JUNGLE_WOOD_STAIRS,
 					SSWPBlocks.STRIPPED_JUNGLE_WOOD_WALL);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.CHORUS_MAY_GROW_ON)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_CHORUS)
 			.add(SSWPBlocks.END_STONE_SLAB,
 					SSWPBlocks.END_STONE_STAIRS,
 					SSWPBlocks.END_STONE_WALL);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.AZALEA_BUSH_MAY_PLACE_ON)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_AZALEA)
 			.add(SSWPBlocks.CLAY_SLAB,
 					SSWPBlocks.CLAY_STAIRS,
 					SSWPBlocks.CLAY_WALL)
@@ -2035,7 +2035,7 @@ public class SSWPTagGen {
 			.addTag(SSWPTags.Blocks.TERRACOTTA_STAIRS)
 			.addTag(SSWPTags.Blocks.TERRACOTTA_WALLS);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.PROPAGULE_MAY_PLANT_ON_TOP)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_PROPAGULE)
 			.add(SSWPBlocks.CLAY_SLAB,
 					SSWPBlocks.CLAY_STAIRS,
 					SSWPBlocks.CLAY_WALL);
@@ -2043,7 +2043,7 @@ public class SSWPTagGen {
 			this.getOrCreateTagBuilder(AquiferTags.Blocks.CONDUIT_ACTIVATING_BLOCKS)
 			.addTag(SSWPTags.Blocks.PRISMARINE);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.END_CRYSTAL_MAY_PLACE_ON)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_END_CRYSTAL)
 			.add(SSWPBlocks.OBSIDIAN_SLAB,
 					SSWPBlocks.OBSIDIAN_STAIRS,
 					SSWPBlocks.OBSIDIAN_WALL,
@@ -2104,12 +2104,12 @@ public class SSWPTagGen {
 					SSWPBlocks.INFESTED_CALCITE,
 					SSWPBlocks.INFESTED_DRIPSTONE_BLOCK);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.UPWARDS_BUBBLE_COLUMN_SOURCE_BLOCKS)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_BUBBLE_COLUMN_UP)
 			.add(SSWPBlocks.SOUL_SAND_SLAB,
 					SSWPBlocks.SOUL_SAND_STAIRS,
 					SSWPBlocks.SOUL_SAND_WALL);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.DOWNWARDS_BUBBLE_COLUMN_SOURCE_BLOCKS)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.SUPPORTS_BUBBLE_COLUMN_DOWN)
 			.add(SSWPBlocks.MAGMA_SLAB,
 					SSWPBlocks.MAGMA_STAIRS,
 					SSWPBlocks.MAGMA_WALL);
@@ -2857,8 +2857,6 @@ public class SSWPTagGen {
 					SSWPBlocks.IRON_WALL,
 					SSWPBlocks.IRON_FENCE,
 					SSWPBlocks.IRON_FENCE_GATE,
-					SSWPBlocks.IRON_BUTTON,
-					SSWPBlocks.GOLD_CHAIN,
 					SSWPBlocks.LAPIS_SLAB,
 					SSWPBlocks.LAPIS_STAIRS,
 					SSWPBlocks.LAPIS_WALL,
@@ -2867,24 +2865,13 @@ public class SSWPTagGen {
 					SSWPBlocks.RAW_IRON_WALL,
 					SSWPBlocks.RAW_COPPER_SLAB,
 					SSWPBlocks.RAW_COPPER_STAIRS,
-					SSWPBlocks.RAW_COPPER_WALL,
-					SSWPBlocks.IRON_LADDER,
-					SSWPBlocks.IRON_SIGN,
-					SSWPBlocks.IRON_WALL_SIGN,
-					SSWPBlocks.IRON_HANGING_SIGN,
-					SSWPBlocks.IRON_WALL_HANGING_SIGN)
+					SSWPBlocks.RAW_COPPER_WALL)
 			.addTag(SSWPTags.Blocks.COPPER_BLOCKS)
 			.addTag(SSWPTags.Blocks.COPPER_SLABS)
 			.addTag(SSWPTags.Blocks.COPPER_STAIRS)
 			.addTag(SSWPTags.Blocks.COPPER_WALLS)
 			.addTag(SSWPTags.Blocks.COPPER_FENCES)
 			.addTag(SSWPTags.Blocks.COPPER_FENCE_GATES)
-			.addTag(SSWPTags.Blocks.COPPER_BARS)
-			.addTag(SSWPTags.Blocks.COPPER_DOORS)
-			.addTag(SSWPTags.Blocks.COPPER_TRAPDOORS)
-			.addTag(SSWPTags.Blocks.COPPER_PRESSURE_PLATES)
-			.addTag(SSWPTags.Blocks.COPPER_BUTTONS)
-			.addTag(SSWPTags.Blocks.COPPER_CHAINS)
 			.addTag(SSWPTags.Blocks.COPPER_BULBS)
 			.addTag(SSWPTags.Blocks.IRON_ORE_SLABS)
 			.addTag(SSWPTags.Blocks.IRON_ORE_STAIRS)
@@ -2894,11 +2881,7 @@ public class SSWPTagGen {
 			.addTag(SSWPTags.Blocks.COPPER_ORE_WALLS)
 			.addTag(SSWPTags.Blocks.LAPIS_ORE_SLABS)
 			.addTag(SSWPTags.Blocks.LAPIS_ORE_STAIRS)
-			.addTag(SSWPTags.Blocks.LAPIS_ORE_WALLS)
-			.addTag(SSWPTags.Blocks.COPPER_LADDERS)
-			.addTag(SSWPTags.Blocks.ALL_COPPER_SIGNS)
-			.addTag(SSWPTags.Blocks.COPPER_CAULDRONS)
-			.addTag(SSWPTags.Blocks.COPPER_LANTERNS);
+			.addTag(SSWPTags.Blocks.LAPIS_ORE_WALLS);
 			
 			this.getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
 			.add(SSWPBlocks.GOLD_SLAB,
@@ -2906,10 +2889,6 @@ public class SSWPTagGen {
 					SSWPBlocks.GOLD_WALL,
 					SSWPBlocks.GOLD_FENCE,
 					SSWPBlocks.GOLD_FENCE_GATE,
-					SSWPBlocks.GOLD_BARS,
-					SSWPBlocks.GOLD_DOOR,
-					SSWPBlocks.GOLD_TRAPDOOR,
-					SSWPBlocks.GOLD_BUTTON,
 					SSWPBlocks.REDSTONE_SLAB,
 					SSWPBlocks.REDSTONE_STAIRS,
 					SSWPBlocks.REDSTONE_WALL,
@@ -2928,18 +2907,7 @@ public class SSWPTagGen {
 					SSWPBlocks.DEEPSLATE_GOLD_ORE_WALL,
 					SSWPBlocks.RAW_GOLD_SLAB,
 					SSWPBlocks.RAW_GOLD_STAIRS,
-					SSWPBlocks.RAW_GOLD_WALL,
-					SSWPBlocks.GOLD_LADDER,
-					SSWPBlocks.GOLD_SIGN,
-					SSWPBlocks.GOLD_WALL_SIGN,
-					SSWPBlocks.GOLD_HANGING_SIGN,
-					SSWPBlocks.GOLD_WALL_HANGING_SIGN,
-					SSWPBlocks.GOLD_CAULDRON,
-					SSWPBlocks.GOLD_WATER_CAULDRON,
-					SSWPBlocks.GOLD_LAVA_CAULDRON,
-					SSWPBlocks.GOLD_POWDER_SNOW_CAULDRON,
-					SSWPBlocks.GOLD_LANTERN,
-					SSWPBlocks.GOLD_SOUL_LANTERN)
+					SSWPBlocks.RAW_GOLD_WALL)
 			.addTag(SSWPTags.Blocks.REDSTONE_ORE_SLABS)
 			.addTag(SSWPTags.Blocks.REDSTONE_ORE_STAIRS)
 			.addTag(SSWPTags.Blocks.REDSTONE_ORE_WALLS)
@@ -2956,25 +2924,13 @@ public class SSWPTagGen {
 					SSWPBlocks.NETHERITE_WALL,
 					SSWPBlocks.NETHERITE_FENCE,
 					SSWPBlocks.NETHERITE_FENCE_GATE,
-					SSWPBlocks.NETHERITE_BARS,
-					SSWPBlocks.NETHERITE_DOOR,
-					SSWPBlocks.NETHERITE_TRAPDOOR,
-					SSWPBlocks.NETHERITE_PRESSURE_PLATE,
-					SSWPBlocks.NETHERITE_BUTTON,
 					SSWPBlocks.ANCIENT_DEBRIS_SLAB,
 					SSWPBlocks.ANCIENT_DEBRIS_STAIRS,
 					SSWPBlocks.ANCIENT_DEBRIS_WALL,
-					SSWPBlocks.NETHERITE_LADDER,
-					SSWPBlocks.NETHERITE_SIGN,
-					SSWPBlocks.NETHERITE_WALL_SIGN,
-					SSWPBlocks.NETHERITE_HANGING_SIGN,
-					SSWPBlocks.NETHERITE_WALL_HANGING_SIGN,
 					SSWPBlocks.NETHERITE_CAULDRON,
 					SSWPBlocks.NETHERITE_WATER_CAULDRON,
 					SSWPBlocks.NETHERITE_LAVA_CAULDRON,
 					SSWPBlocks.NETHERITE_POWDER_SNOW_CAULDRON,
-					SSWPBlocks.NETHERITE_LANTERN,
-					SSWPBlocks.NETHERITE_SOUL_LANTERN,
 					SSWPBlocks.NETHERITE_ANVIL)
 			.addTag(SSWPTags.Blocks.OBSIDIAN)
 			.addTag(SSWPTags.Blocks.OBSIDIAN_SLABS)
@@ -3408,7 +3364,7 @@ public class SSWPTagGen {
 					SSWPBlocks.PINK_STAINED_GLASS_STAIRS,
 					SSWPBlocks.PINK_STAINED_GLASS_WALL);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.CHESTS_WOODEN_NOT_TRAPPED)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.Conventional.WOODEN_NON_TRAPPED_CHESTS)
 			.add(SSWPBlocks.OAK_CHEST,
 					SSWPBlocks.SPRUCE_CHEST,
 					SSWPBlocks.BIRCH_CHEST,
@@ -3421,7 +3377,7 @@ public class SSWPTagGen {
 					SSWPBlocks.CRIMSON_CHEST,
 					SSWPBlocks.WARPED_CHEST);
 			
-			this.getOrCreateTagBuilder(AquiferTags.Blocks.CHESTS_WOODEN_TRAPPED)
+			this.getOrCreateTagBuilder(AquiferTags.Blocks.Conventional.WOODEN_TRAPPED_CHESTS)
 			.add(SSWPBlocks.OAK_TRAPPED_CHEST,
 					SSWPBlocks.SPRUCE_TRAPPED_CHEST,
 					SSWPBlocks.BIRCH_TRAPPED_CHEST,
@@ -3748,8 +3704,8 @@ public class SSWPTagGen {
 			this.copy(ConventionalBlockTags.PURPLE_DYED, ConventionalItemTags.PURPLE_DYED);
 			this.copy(ConventionalBlockTags.MAGENTA_DYED, ConventionalItemTags.MAGENTA_DYED);
 			this.copy(ConventionalBlockTags.PINK_DYED, ConventionalItemTags.PINK_DYED);
-			this.copy(AquiferTags.Blocks.CHESTS_WOODEN_NOT_TRAPPED, AquiferTags.Items.CHESTS_WOODEN_NOT_TRAPPED);
-			this.copy(AquiferTags.Blocks.CHESTS_WOODEN_TRAPPED, AquiferTags.Items.CHESTS_WOODEN_TRAPPED);
+			this.copy(AquiferTags.Blocks.Conventional.WOODEN_NON_TRAPPED_CHESTS, AquiferTags.Items.Conventional.WOODEN_NON_TRAPPED_CHESTS);
+			this.copy(AquiferTags.Blocks.Conventional.WOODEN_TRAPPED_CHESTS, AquiferTags.Items.Conventional.WOODEN_TRAPPED_CHESTS);
 
 			this.getOrCreateTagBuilder(SSWPTags.Items.UNWAXED_COPPER_SIGNS)
 			.add(SSWPItems.COPPER_SIGN,

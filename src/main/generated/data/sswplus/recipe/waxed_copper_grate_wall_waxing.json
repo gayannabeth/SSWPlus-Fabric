@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "waxed_copper_grate_wall",
+  "ingredients": [
+    {
+      "item": "sswplus:copper_grate_wall"
+    },
+    {
+      "tag": "aquifer:wax_items"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:waxed_copper_grate_wall"
+  }
+}

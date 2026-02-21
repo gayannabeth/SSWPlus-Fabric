@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "waxed_oxidized_copper_grate_stairs",
+  "ingredients": [
+    {
+      "item": "sswplus:oxidized_copper_grate_stairs"
+    },
+    {
+      "tag": "aquifer:wax_items"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:waxed_oxidized_copper_grate_stairs"
+  }
+}

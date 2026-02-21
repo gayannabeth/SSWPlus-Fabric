@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-19T19:09:33.0833323	Stairs Slabs Walls+/Tags for minecraft:item
+// 1.21.1	2026-02-21T13:32:10.038929	Stairs Slabs Walls+/Tags for minecraft:item
 86b698c71e43ec803bac5d0c84d288d02ae787af data\sswplus\tags\item\mangrove_walls.json
 3b9fdde0f8656fd615b7f24f93c235afcfb9d4e3 data\sswplus\tags\item\copper_walls.json
 9c5ae7b279bbd5ff1e85a4ebab5721ab0d1432e3 data\sswplus\tags\item\dead_coral_slabs.json
@@ -83,8 +83,8 @@ f090e2b042b8f7160375768e4dd246dabf787c5c data\sswplus\tags\item\coal_ore_slabs.j
 9a26106f915c02b1340499458ab371d1fe158f5c data\minecraft\tags\item\walls.json
 eaea3b0d68c68427f4d8d6ee7d6fe536a2d7d790 data\sswplus\tags\item\sandstone_slabs\beige.json
 186227cb78fab642fd49fc12a64b1980c013fa33 data\sswplus\tags\item\copper_chains\unwaxed.json
-d8cec5435b9cc4bf72804dda8d936da63cbee1aa data\sswplus\tags\item\sandstone_stairs\beige.json
 a58f77793bb1911084ad1e476dc7f6fa18c5d25c data\sswplus\tags\item\sandstone_slabs\red.json
+d8cec5435b9cc4bf72804dda8d936da63cbee1aa data\sswplus\tags\item\sandstone_stairs\beige.json
 eb64b93654b63e06704d4d689da448a0a0688670 data\sswplus\tags\item\diorite.json
 fa89d25de81f39c2043f01791fd27e3b4279b9da data\sswplus\tags\item\bamboo_planks.json
 2219467817fa08ad42b43ce3c896ecafd8b902e6 data\sswplus\tags\item\deepslate_tiles.json
@@ -301,8 +301,8 @@ cd0d129e1ea85f4b6b7c24afdcc444bb3a9ca769 data\sswplus\tags\item\wool_walls.json
 f7a9653e366e294642233b436afcc1724c08be36 data\sswplus\tags\item\stone_brick_walls.json
 637d9065d59a1a6b54968e0b7b4e510790f0bf4b data\sswplus\tags\item\copper_buttons.json
 39b2101286684d39bb06b9bc7ab744d8e4224605 data\sswplus\tags\item\blackstone_brick_walls.json
-3995a9f91bf0fe603271cd9c21317595312b71c6 data\sswplus\tags\item\copper_fences.json
 ee25cdb7829e66a7ba122f31c1026c97dea5f5ba data\sswplus\tags\item\copper_trapdoors.json
+3995a9f91bf0fe603271cd9c21317595312b71c6 data\sswplus\tags\item\copper_fences.json
 f69a69393ddca0abbc0d4195b852e70f2dcba496 data\sswplus\tags\item\copper_walls\waxed.json
 85a0372209e11bcd830513154bbf01b36882acf1 data\c\tags\item\dyed\lime.json
 2d2c39d541b396eacc41331acdb774ffdc632b6e data\sswplus\tags\item\copper_walls\unwaxed.json

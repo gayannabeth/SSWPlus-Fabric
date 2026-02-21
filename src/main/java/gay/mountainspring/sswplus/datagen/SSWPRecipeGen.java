@@ -734,7 +734,7 @@ public final class SSWPRecipeGen extends FabricRecipeProvider {
 		offerBambooChestRecipe(exp);
 		offerChestRecipe(exp, SSWPItems.CRIMSON_CHEST, Items.CRIMSON_PLANKS);
 		offerChestRecipe(exp, SSWPItems.WARPED_CHEST, Items.WARPED_PLANKS);
-		ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Items.CHEST).input(AquiferTags.Items.CHESTS_WOODEN_NOT_TRAPPED).criterion("has_wooden_chest", conditionsFromTag(AquiferTags.Items.CHESTS_WOODEN_NOT_TRAPPED)).group("wooden_chest").offerTo(exp);
+		ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Items.CHEST).input(AquiferTags.Items.Conventional.WOODEN_NON_TRAPPED_CHESTS).criterion("has_wooden_chest", conditionsFromTag(AquiferTags.Items.Conventional.WOODEN_NON_TRAPPED_CHESTS)).group("wooden_chest").offerTo(exp);
 		
 		offerTrappedChestRecipe(exp, SSWPItems.OAK_TRAPPED_CHEST, SSWPItems.OAK_CHEST);
 		offerTrappedChestRecipe(exp, SSWPItems.SPRUCE_TRAPPED_CHEST, SSWPItems.SPRUCE_CHEST);
@@ -747,7 +747,7 @@ public final class SSWPRecipeGen extends FabricRecipeProvider {
 		offerBambooTrappedChestRecipe(exp);
 		offerTrappedChestRecipe(exp, SSWPItems.CRIMSON_TRAPPED_CHEST, SSWPItems.CRIMSON_CHEST);
 		offerTrappedChestRecipe(exp, SSWPItems.WARPED_TRAPPED_CHEST, SSWPItems.WARPED_CHEST);
-		ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Items.TRAPPED_CHEST).input(AquiferTags.Items.CHESTS_WOODEN_TRAPPED).criterion("has_wooden_chest", conditionsFromTag(AquiferTags.Items.CHESTS_WOODEN_TRAPPED)).group("wooden_trapped_chest").offerTo(exp);
+		ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Items.TRAPPED_CHEST).input(AquiferTags.Items.Conventional.WOODEN_NON_TRAPPED_CHESTS).criterion("has_wooden_chest", conditionsFromTag(AquiferTags.Items.Conventional.WOODEN_NON_TRAPPED_CHESTS)).group("wooden_trapped_chest").offerTo(exp);
 		
 		offerCauldronRecipe(exp, SSWPItems.GOLD_CAULDRON, Items.GOLD_INGOT);
 		
@@ -1091,11 +1091,11 @@ public final class SSWPRecipeGen extends FabricRecipeProvider {
 	}
 	
 	public static void offerWaxingRecipe(RecipeExporter exp, RecipeCategory category, ItemConvertible output, ItemConvertible input) {
-		ShapelessRecipeJsonBuilder.create(category, output).input(input).input(AquiferTags.Items.WAXABLES).criterion(hasItem(input), conditionsFromItem(input)).criterion("has_honeycomb", conditionsFromTag(AquiferTags.Items.WAXABLES)).offerTo(exp, Identifier.of(SSWPlus.MOD_ID, convertBetween(output, Items.HONEYCOMB)));
+		ShapelessRecipeJsonBuilder.create(category, output).input(input).input(AquiferTags.Items.WAX_ITEMS).criterion(hasItem(input), conditionsFromItem(input)).criterion("has_honeycomb", conditionsFromTag(AquiferTags.Items.WAX_ITEMS)).offerTo(exp, Identifier.of(SSWPlus.MOD_ID, getItemPath(output) + "_waxing"));
 	}
 	
 	public static void offerWaxingRecipeGrouped(RecipeExporter exp, RecipeCategory category, ItemConvertible output, ItemConvertible input) {
-		ShapelessRecipeJsonBuilder.create(category, output).input(input).input(AquiferTags.Items.WAXABLES).criterion(hasItem(input), conditionsFromItem(input)).criterion("has_honeycomb", conditionsFromTag(AquiferTags.Items.WAXABLES)).group(getItemPath(output)).offerTo(exp, Identifier.of(SSWPlus.MOD_ID, convertBetween(output, Items.HONEYCOMB)));
+		ShapelessRecipeJsonBuilder.create(category, output).input(input).input(AquiferTags.Items.WAX_ITEMS).criterion(hasItem(input), conditionsFromItem(input)).criterion("has_honeycomb", conditionsFromTag(AquiferTags.Items.WAX_ITEMS)).group(getItemPath(output)).offerTo(exp, Identifier.of(SSWPlus.MOD_ID, getItemPath(output) + "_waxing"));
 	}
 	
 	private Object2IntMap<ItemConvertible> fourAndOne(ItemConvertible four, ItemConvertible one) {

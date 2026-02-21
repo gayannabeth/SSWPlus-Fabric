@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "waxed_chiseled_copper_wall",
+  "ingredients": [
+    {
+      "item": "sswplus:chiseled_copper_wall"
+    },
+    {
+      "tag": "aquifer:wax_items"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sswplus:waxed_chiseled_copper_wall"
+  }
+}
