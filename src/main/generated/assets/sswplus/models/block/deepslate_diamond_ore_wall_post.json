@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/template_wall_post",
+  "parent": "aquifer:block/template_wall_post_column",
   "textures": {
-    "wall": "minecraft:block/deepslate_diamond_ore"
+    "end": "sswplus:block/deepslate_diamond_ore_top",
+    "side": "minecraft:block/deepslate_diamond_ore"
   }
 }

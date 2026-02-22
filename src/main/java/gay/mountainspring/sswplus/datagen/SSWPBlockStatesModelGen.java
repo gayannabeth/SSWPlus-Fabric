@@ -741,58 +741,58 @@ public final class SSWPBlockStatesModelGen extends FabricModelProvider {
 		AquiferBlockStates.registerSlab(gen, SSWPBlocks.COAL_ORE_SLAB, Blocks.COAL_ORE);
 		AquiferBlockStates.registerStairs(gen, SSWPBlocks.COAL_ORE_STAIRS, Blocks.COAL_ORE);
 		AquiferBlockStates.registerWall(gen, SSWPBlocks.COAL_ORE_WALL, Blocks.COAL_ORE);
-		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_COAL_ORE_SLAB, Blocks.DEEPSLATE_COAL_ORE);
-		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_COAL_ORE_STAIRS, Blocks.DEEPSLATE_COAL_ORE);
-		AquiferBlockStates.registerWall(gen, SSWPBlocks.DEEPSLATE_COAL_ORE_WALL, Blocks.DEEPSLATE_COAL_ORE);
+		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_COAL_ORE_SLAB, forVanillaDSOre(Blocks.DEEPSLATE_COAL_ORE), ModelIds.getBlockModelId(Blocks.DEEPSLATE_COAL_ORE));
+		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_COAL_ORE_STAIRS, forVanillaDSOre(Blocks.DEEPSLATE_COAL_ORE));
+		AquiferBlockStates.registerWallColumn(gen, SSWPBlocks.DEEPSLATE_COAL_ORE_WALL, forVanillaDSOre(Blocks.DEEPSLATE_COAL_ORE));
 		
 		AquiferBlockStates.registerSlab(gen, SSWPBlocks.IRON_ORE_SLAB, Blocks.IRON_ORE);
 		AquiferBlockStates.registerStairs(gen, SSWPBlocks.IRON_ORE_STAIRS, Blocks.IRON_ORE);
 		AquiferBlockStates.registerWall(gen, SSWPBlocks.IRON_ORE_WALL, Blocks.IRON_ORE);
-		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_IRON_ORE_SLAB, Blocks.DEEPSLATE_IRON_ORE);
-		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_IRON_ORE_STAIRS, Blocks.DEEPSLATE_IRON_ORE);
-		AquiferBlockStates.registerWall(gen, SSWPBlocks.DEEPSLATE_IRON_ORE_WALL, Blocks.DEEPSLATE_IRON_ORE);
+		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_IRON_ORE_SLAB, forVanillaDSOre(Blocks.DEEPSLATE_IRON_ORE), ModelIds.getBlockModelId(Blocks.DEEPSLATE_IRON_ORE));
+		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_IRON_ORE_STAIRS, forVanillaDSOre(Blocks.DEEPSLATE_IRON_ORE));
+		AquiferBlockStates.registerWallColumn(gen, SSWPBlocks.DEEPSLATE_IRON_ORE_WALL, forVanillaDSOre(Blocks.DEEPSLATE_IRON_ORE));
 		
 		AquiferBlockStates.registerSlab(gen, SSWPBlocks.COPPER_ORE_SLAB, Blocks.COPPER_ORE);
 		AquiferBlockStates.registerStairs(gen, SSWPBlocks.COPPER_ORE_STAIRS, Blocks.COPPER_ORE);
 		AquiferBlockStates.registerWall(gen, SSWPBlocks.COPPER_ORE_WALL, Blocks.COPPER_ORE);
-		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_COPPER_ORE_SLAB, Blocks.DEEPSLATE_COPPER_ORE);
-		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_COPPER_ORE_STAIRS, Blocks.DEEPSLATE_COPPER_ORE);
-		AquiferBlockStates.registerWall(gen, SSWPBlocks.DEEPSLATE_COPPER_ORE_WALL, Blocks.DEEPSLATE_COPPER_ORE);
+		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_COPPER_ORE_SLAB, forVanillaDSOre(Blocks.DEEPSLATE_COPPER_ORE), ModelIds.getBlockModelId(Blocks.DEEPSLATE_COPPER_ORE));
+		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_COPPER_ORE_STAIRS, forVanillaDSOre(Blocks.DEEPSLATE_COPPER_ORE));
+		AquiferBlockStates.registerWallColumn(gen, SSWPBlocks.DEEPSLATE_COPPER_ORE_WALL, forVanillaDSOre(Blocks.DEEPSLATE_COPPER_ORE));
 		
 		AquiferBlockStates.registerSlab(gen, SSWPBlocks.GOLD_ORE_SLAB, Blocks.GOLD_ORE);
 		AquiferBlockStates.registerStairs(gen, SSWPBlocks.GOLD_ORE_STAIRS, Blocks.GOLD_ORE);
 		AquiferBlockStates.registerWall(gen, SSWPBlocks.GOLD_ORE_WALL, Blocks.GOLD_ORE);
-		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_GOLD_ORE_SLAB, Blocks.DEEPSLATE_GOLD_ORE);
-		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_GOLD_ORE_STAIRS, Blocks.DEEPSLATE_GOLD_ORE);
-		AquiferBlockStates.registerWall(gen, SSWPBlocks.DEEPSLATE_GOLD_ORE_WALL, Blocks.DEEPSLATE_GOLD_ORE);
+		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_GOLD_ORE_SLAB, forVanillaDSOre(Blocks.DEEPSLATE_GOLD_ORE), ModelIds.getBlockModelId(Blocks.DEEPSLATE_GOLD_ORE));
+		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_GOLD_ORE_STAIRS, forVanillaDSOre(Blocks.DEEPSLATE_GOLD_ORE));
+		AquiferBlockStates.registerWallColumn(gen, SSWPBlocks.DEEPSLATE_GOLD_ORE_WALL, forVanillaDSOre(Blocks.DEEPSLATE_GOLD_ORE));
 		
 		AquiferBlockStates.registerBoolPropertySlab(gen, SSWPBlocks.REDSTONE_ORE_SLAB, RedstoneOreSlabBlock.LIT, Blocks.REDSTONE_ORE);
 		AquiferBlockStates.registerBoolPropertyStairs(gen, SSWPBlocks.REDSTONE_ORE_STAIRS, RedstoneOreStairsBlock.LIT, Blocks.REDSTONE_ORE);
 		AquiferBlockStates.registerWall(gen, SSWPBlocks.REDSTONE_ORE_WALL, Blocks.REDSTONE_ORE);
-		AquiferBlockStates.registerBoolPropertySlab(gen, SSWPBlocks.DEEPSLATE_REDSTONE_ORE_SLAB, RedstoneOreSlabBlock.LIT, Blocks.DEEPSLATE_REDSTONE_ORE);
-		AquiferBlockStates.registerBoolPropertyStairs(gen, SSWPBlocks.DEEPSLATE_REDSTONE_ORE_STAIRS, RedstoneOreStairsBlock.LIT, Blocks.DEEPSLATE_REDSTONE_ORE);
-		AquiferBlockStates.registerWall(gen, SSWPBlocks.DEEPSLATE_REDSTONE_ORE_WALL, Blocks.DEEPSLATE_REDSTONE_ORE);
+		AquiferBlockStates.registerBoolPropertySlab(gen, SSWPBlocks.DEEPSLATE_REDSTONE_ORE_SLAB, RedstoneOreSlabBlock.LIT, forVanillaDSOre(Blocks.DEEPSLATE_REDSTONE_ORE), ModelIds.getBlockModelId(Blocks.DEEPSLATE_REDSTONE_ORE));
+		AquiferBlockStates.registerBoolPropertyStairs(gen, SSWPBlocks.DEEPSLATE_REDSTONE_ORE_STAIRS, RedstoneOreStairsBlock.LIT, forVanillaDSOre(Blocks.DEEPSLATE_REDSTONE_ORE));
+		AquiferBlockStates.registerWallColumn(gen, SSWPBlocks.DEEPSLATE_REDSTONE_ORE_WALL, forVanillaDSOre(Blocks.DEEPSLATE_REDSTONE_ORE));
 		
 		AquiferBlockStates.registerSlab(gen, SSWPBlocks.EMERALD_ORE_SLAB, Blocks.EMERALD_ORE);
 		AquiferBlockStates.registerStairs(gen, SSWPBlocks.EMERALD_ORE_STAIRS, Blocks.EMERALD_ORE);
 		AquiferBlockStates.registerWall(gen, SSWPBlocks.EMERALD_ORE_WALL, Blocks.EMERALD_ORE);
-		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_EMERALD_ORE_SLAB, Blocks.DEEPSLATE_EMERALD_ORE);
-		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_EMERALD_ORE_STAIRS, Blocks.DEEPSLATE_EMERALD_ORE);
-		AquiferBlockStates.registerWall(gen, SSWPBlocks.DEEPSLATE_EMERALD_ORE_WALL, Blocks.DEEPSLATE_EMERALD_ORE);
+		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_EMERALD_ORE_SLAB, forVanillaDSOre(Blocks.DEEPSLATE_EMERALD_ORE), ModelIds.getBlockModelId(Blocks.DEEPSLATE_EMERALD_ORE));
+		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_EMERALD_ORE_STAIRS, forVanillaDSOre(Blocks.DEEPSLATE_EMERALD_ORE));
+		AquiferBlockStates.registerWallColumn(gen, SSWPBlocks.DEEPSLATE_EMERALD_ORE_WALL, forVanillaDSOre(Blocks.DEEPSLATE_EMERALD_ORE));
 		
 		AquiferBlockStates.registerSlab(gen, SSWPBlocks.LAPIS_ORE_SLAB, Blocks.LAPIS_ORE);
 		AquiferBlockStates.registerStairs(gen, SSWPBlocks.LAPIS_ORE_STAIRS, Blocks.LAPIS_ORE);
 		AquiferBlockStates.registerWall(gen, SSWPBlocks.LAPIS_ORE_WALL, Blocks.LAPIS_ORE);
-		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_LAPIS_ORE_SLAB, Blocks.DEEPSLATE_LAPIS_ORE);
-		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_LAPIS_ORE_STAIRS, Blocks.DEEPSLATE_LAPIS_ORE);
-		AquiferBlockStates.registerWall(gen, SSWPBlocks.DEEPSLATE_LAPIS_ORE_WALL, Blocks.DEEPSLATE_LAPIS_ORE);
+		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_LAPIS_ORE_SLAB, forVanillaDSOre(Blocks.DEEPSLATE_LAPIS_ORE), ModelIds.getBlockModelId(Blocks.DEEPSLATE_LAPIS_ORE));
+		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_LAPIS_ORE_STAIRS, forVanillaDSOre(Blocks.DEEPSLATE_LAPIS_ORE));
+		AquiferBlockStates.registerWallColumn(gen, SSWPBlocks.DEEPSLATE_LAPIS_ORE_WALL, forVanillaDSOre(Blocks.DEEPSLATE_LAPIS_ORE));
 		
 		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DIAMOND_ORE_SLAB, Blocks.DIAMOND_ORE);
 		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DIAMOND_ORE_STAIRS, Blocks.DIAMOND_ORE);
 		AquiferBlockStates.registerWall(gen, SSWPBlocks.DIAMOND_ORE_WALL, Blocks.DIAMOND_ORE);
-		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_DIAMOND_ORE_SLAB, Blocks.DEEPSLATE_DIAMOND_ORE);
-		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_DIAMOND_ORE_STAIRS, Blocks.DEEPSLATE_DIAMOND_ORE);
-		AquiferBlockStates.registerWall(gen, SSWPBlocks.DEEPSLATE_DIAMOND_ORE_WALL, Blocks.DEEPSLATE_DIAMOND_ORE);
+		AquiferBlockStates.registerSlab(gen, SSWPBlocks.DEEPSLATE_DIAMOND_ORE_SLAB, forVanillaDSOre(Blocks.DEEPSLATE_DIAMOND_ORE), ModelIds.getBlockModelId(Blocks.DEEPSLATE_DIAMOND_ORE));
+		AquiferBlockStates.registerStairs(gen, SSWPBlocks.DEEPSLATE_DIAMOND_ORE_STAIRS, forVanillaDSOre(Blocks.DEEPSLATE_DIAMOND_ORE));
+		AquiferBlockStates.registerWallColumn(gen, SSWPBlocks.DEEPSLATE_DIAMOND_ORE_WALL, forVanillaDSOre(Blocks.DEEPSLATE_DIAMOND_ORE));
 
 		AquiferBlockStates.registerSlab(gen, SSWPBlocks.NETHER_QUARTZ_ORE_SLAB, Blocks.NETHER_QUARTZ_ORE);
 		AquiferBlockStates.registerStairs(gen, SSWPBlocks.NETHER_QUARTZ_ORE_STAIRS, Blocks.NETHER_QUARTZ_ORE);
@@ -1500,5 +1500,9 @@ public final class SSWPBlockStatesModelGen extends FabricModelProvider {
 						BlockStateVariant.create().put(VariantSettings.MODEL, identifier4).put(VariantSettings.Y, VariantSettings.Rotation.R270)
 					)
 			);
+	}
+	
+	public static final TextureMap forVanillaDSOre(Block ore) {
+		return new TextureMap().put(TextureKey.SIDE, TextureMap.getId(ore)).put(TextureKey.END, Identifier.of(SSWPlus.MOD_ID, TextureMap.getSubId(ore, "_top").getPath()));
 	}
 }
