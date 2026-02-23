@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-21T18:32:01.6246114	Stairs Slabs Walls+/Tags for minecraft:block
+// 1.21.1	2026-02-23T15:30:37.7071569	Stairs Slabs Walls+/Tags for minecraft:block
 f1104e9902a8d19a53ceb1774da25b1dd1599694 data\sswplus\tags\block\sandstone\red.json
 c8aae6fa083906b52c2bafd943c2cdb3f273bc5c data\c\tags\block\chains.json
 1be4c34bef6d6fed3230a691d27b6997e1e7f9b4 data\aquifer\tags\block\crafting_tables.json
@@ -29,8 +29,8 @@ fca867a1f453ff0ed48e651ea956198afc4df767 data\c\tags\block\chests\wooden\not_tra
 635f883e9f120c9fa0a98a349b0f70ec5ebcb281 data\sswplus\tags\block\warped_stairs.json
 d478fd86236b793c9083062a3101a0f4d0b09810 data\aquifer\tags\block\bookshelves.json
 2f34a44f7636797ef3a8ee2125a2ef4311b9d006 data\sswplus\tags\block\tuff_brick_slabs.json
-78512030556ba4970f7d38d84d205a22f25c5399 data\aquifer\tags\block\ladders.json
 68b1e4ffd88a69efdedfadcd1271de5d92544347 data\aquifer\tags\block\leaf_walls.json
+78512030556ba4970f7d38d84d205a22f25c5399 data\aquifer\tags\block\ladders.json
 2d2c39d541b396eacc41331acdb774ffdc632b6e data\sswplus\tags\block\copper_walls\unwaxed.json
 9b43ef778ee9423b93f30f58e84b02cbb316e4f1 data\sswplus\tags\block\obsidian_stairs.json
 43ef7c2dbbca0903e86be630721796ad0b5c6b67 data\sswplus\tags\block\copper_lanterns.json
@@ -48,7 +48,7 @@ ef56227c3ff6b54cf745e9883c5dfefdc6ad0e8a data\sswplus\tags\block\sandstone\beige
 2cc1bdd549983aa645f62e87d90df5820d2014a5 data\sswplus\tags\block\froglight_walls.json
 1c00f2d050dfb9186ca1e93fe8e5ff6381c03e41 data\sswplus\tags\block\gold_ore_slabs.json
 6c611024fd7c87d5c056fda7370193fec74dfdd8 data\aquifer\tags\block\mineable\shears\medium.json
-530d9d92f54754f221a65b9e08bc0026be06bb7b data\minecraft\tags\block\needs_iron_tool.json
+0c1aa35c197578320e13ca9403e6153911758894 data\minecraft\tags\block\needs_iron_tool.json
 0b801f3fa29d7017397822820cbbe6ab0acb8895 data\minecraft\tags\block\doors.json
 05298ff616309b4fe2b2b51b841300cd63610ce0 data\sswplus\tags\block\jungle_stairs.json
 131d96e27924b26e89c0d7a4b949ea7ebb91ce1c data\sswplus\tags\block\deepslate_bricks.json
@@ -73,8 +73,8 @@ b7f757c2566b227501b6a83f3f8cf33bb072202a data\c\tags\block\sandstone\red_slabs.j
 b0d0b5fd75334340018d24bd193f5712feea4462 data\sswplus\tags\block\basalt_stairs.json
 854af3e0518596497fdadc5c9ccc5167c361c45e data\sswplus\tags\block\sandstone_stairs.json
 82029906fd5bad72b488a9a7b563467c061f4c1a data\sswplus\tags\block\andesite_walls.json
-5d58527855a1213154b6aa449f66d27f53321445 data\sswplus\tags\block\unwaxed_copper_ladders.json
 cc5c2702cdb99c5fa5045b84e7d026246a7142d3 data\sswplus\tags\block\unwaxed_copper_wall_signs.json
+5d58527855a1213154b6aa449f66d27f53321445 data\sswplus\tags\block\unwaxed_copper_ladders.json
 3a8afc07cf846ac717f982c7245f16f17a106c8b data\aquifer\tags\block\supports_end_crystal.json
 8434f7f9843e074345fab54bd73f4c054150de34 data\sswplus\tags\block\nether_brick_stairs.json
 774a38f906c66bd451c140d70f3a95c135aed27b data\sswplus\tags\block\converts_to_mud_wall.json
@@ -144,20 +144,21 @@ fb787d096d0045bcba176892fb727d128fe55cd5 data\minecraft\tags\block\infiniburn_en
 2de381d697170c4150ad66aed8f3246aff05b9b8 data\sswplus\tags\block\lapis_ore_walls.json
 ee25cdb7829e66a7ba122f31c1026c97dea5f5ba data\sswplus\tags\block\copper_trapdoors.json
 2fa2b320e82b2e09e957f0235e391d8b32c78b21 data\c\tags\block\fences\nether_brick.json
+da5cbf59be99e980e82275b4bbb8f11572c86274 data\c\tags\block\ores\quartz.json
 2962b0381a51e3098caddd7f0c144c531049d05c data\sswplus\tags\block\acacia_walls.json
 6af502744e24a168abe424d782274ee0c2b1b325 data\sswplus\tags\block\nether_brick_walls.json
 e176f3f095958462df8a01d01a73d1e968b5d26b data\sswplus\tags\block\unwaxed_copper_cauldrons.json
 3603d7c644f71df43167b118bd37497c1db25c02 data\sswplus\tags\block\terracotta_walls.json
-3995a9f91bf0fe603271cd9c21317595312b71c6 data\sswplus\tags\block\copper_fences.json
 d3fc61dd858c2de46d30a0f93087c337e86b8ce4 data\sswplus\tags\block\copper_bars.json
+3995a9f91bf0fe603271cd9c21317595312b71c6 data\sswplus\tags\block\copper_fences.json
 66f0761ab893a5f7c6638e3226e98ee343f70aa6 data\sswplus\tags\block\purpur_slabs.json
 bdcc1e9f59d10203cc8153f16295e30a00026b8f data\sswplus\tags\block\quartz_ore_stairs.json
 1d4937c700e82cc2032a7fad2ed9b636fec5db43 data\c\tags\block\dyed\light_gray.json
 3e0cb044b396935930f4796c8ee162c4695df45a data\sswplus\tags\block\concrete_slabs.json
 a77c008e0c8a6d9b310d4815e67d63b4604fc50b data\sswplus\tags\block\unwaxed_copper_standing_signs.json
 e4b8c59dc2ded795a0fb67ddbc7c0721e16e1d8d data\minecraft\tags\block\wooden_stairs.json
-be96a052c65376e8016ce519f3e841f13f366526 data\sswplus\tags\block\iron_ore_stairs.json
 78edc472ec2b551a9397e20cacd328765e5ff267 data\sswplus\tags\block\nylium_slabs.json
+be96a052c65376e8016ce519f3e841f13f366526 data\sswplus\tags\block\iron_ore_stairs.json
 cd0d129e1ea85f4b6b7c24afdcc444bb3a9ca769 data\sswplus\tags\block\wool_walls.json
 663144d843a5e247603bcba98a2c952aca5841d5 data\sswplus\tags\block\andesite_stairs.json
 bac876b17e6acafbc410bacb04d09a1f72a096e0 data\sswplus\tags\block\redstone_ore_slabs.json
@@ -205,12 +206,12 @@ ae6e8b77c1f5f95c93bae0298aa0e654a8f5d55a data\sswplus\tags\block\copper_stairs.j
 fc38fd985fb37dcedd1e6a6506e888edbbeab61a data\sswplus\tags\block\lanterns.json
 c6e8060ed18dbe799b8626b402367a2cfb4077ac data\c\tags\block\dyed\red.json
 5228a3b78cfe72d9dbdab6a53f1135444cc78304 data\aquifer\tags\block\smithing_tables.json
-e6836a1cf07b7c3f0ae20e7adaf6a0331b1027ab data\sswplus\tags\block\all_copper_signs.json
 2f0f3d7409fb93896892780370a71d5567d629d0 data\sswplus\tags\block\obsidian_walls.json
+e6836a1cf07b7c3f0ae20e7adaf6a0331b1027ab data\sswplus\tags\block\all_copper_signs.json
 3708a39ea268fa01fe8da5ca1e954f2959d23306 data\sswplus\tags\block\concrete_walls.json
 be385cc7ba6544568f26d96a337902881e51e84a data\sswplus\tags\block\glass_walls.json
-92ca652fbc3962c3ab460872cbbea9bf466bf12c data\sswplus\tags\block\emerald_ore_stairs.json
 245bad8695fc8171c45c0f6c8d4319163d38017f data\sswplus\tags\block\quartz_ore_walls.json
+92ca652fbc3962c3ab460872cbbea9bf466bf12c data\sswplus\tags\block\emerald_ore_stairs.json
 ac1213f779f6506c83563d5eee60136f55f3e68a data\c\tags\block\dyed\pink.json
 648e6d4ecaa8904e03c99373c4f6e585812e48c8 data\sswplus\tags\block\granite_walls.json
 5e671480241d60a9c9a41784602be5854e70c061 data\c\tags\block\sandstone\red_stairs.json
@@ -252,7 +253,7 @@ ff9182b86454a0904035268ad7aacfe1658c2fba data\sswplus\tags\block\mangrove_slabs.
 637d9065d59a1a6b54968e0b7b4e510790f0bf4b data\sswplus\tags\block\copper_buttons.json
 96f090f749d40030f876f4fc8f849162e25b68ba data\sswplus\tags\block\copper_fence_gates.json
 6576378b6a91366074172f56ec3a739dfd113e95 data\sswplus\tags\block\blackstone_slabs.json
-0bf90f039eeea342149844ac66db9c904e2246cf data\minecraft\tags\block\needs_stone_tool.json
+8da050efda5735efd8a548f62cdc0af66fd1cf28 data\minecraft\tags\block\needs_stone_tool.json
 fc81069b4b2fa7746289c4ddb12d7e7fc23992e2 data\sswplus\tags\block\redstone_ore_walls.json
 80ac77a320d5a8e8e1bfcfb2d83c3aa2c183aa19 data\aquifer\tags\block\composters.json
 f253ef40a8ba7041011bef3af1719dd346fdd1c2 data\sswplus\tags\block\diamond_ore_walls.json
@@ -289,8 +290,8 @@ ae0203eddd1e2e992979b85b6d6f928013089318 data\sswplus\tags\block\ice_walls.json
 a5f069870ad01a8fde905b3b5fc35225fe3668fa data\minecraft\tags\block\fences.json
 1a15e0a2e70094d22e88053dbdbffcf9e6a05c2a data\c\tags\block\sandstone\red_walls.json
 ed480a46f11e013714569d3418b808d255a0819c data\sswplus\tags\block\unwaxed_copper_wall_hanging_signs.json
-b0d5f411f2a65e07fcebae8cc6123237987a9116 data\sswplus\tags\block\nylium_stairs.json
 189e7e7e54cef0b1cfda291c2f48093f7e9f6885 data\sswplus\tags\block\iron_ore_walls.json
+b0d5f411f2a65e07fcebae8cc6123237987a9116 data\sswplus\tags\block\nylium_stairs.json
 e09ed10cb87f928d3aa21d0116a3c03e51e7c600 data\sswplus\tags\block\copper_ceiling_hanging_signs.json
 7883020494bd2e5ff7bd88457b0366497cc749c1 data\sswplus\tags\block\converts_to_mud_slab.json
 5223ef5189887e30c97da3711d95ca7c1e3f96d0 data\aquifer\tags\block\bars.json
@@ -307,8 +308,8 @@ a9ac5510bbb34a10b1ddb3f29d3c9a44e860dd4f data\sswplus\tags\block\nether_brick_bl
 e1fdd0b985caa409534f64cacf735994477d8bf7 data\sswplus\tags\block\crimson_walls.json
 8ea48489832f217839c189efc171c47e0cdf65ba data\minecraft\tags\block\dead_bush_may_place_on.json
 f7dc471c83869a136e5233af0b724b6d75558516 data\minecraft\tags\block\mushroom_grow_block.json
-c40002d8ca746a5a3b3c44132b67c5fc5f523d1d data\c\tags\block\dyed\magenta.json
 c9b3825cfaddd895c3d1df528ba802202eab4151 data\minecraft\tags\block\azalea_grows_on.json
+c40002d8ca746a5a3b3c44132b67c5fc5f523d1d data\c\tags\block\dyed\magenta.json
 4d5552c65f57f8e3f653a83cbb4d61a2fa248ad8 data\aquifer\tags\block\leaf_stairs.json
 30cb6711256565b01400d2d2511203bd564816cf data\sswplus\tags\block\copper_trapdoors\unwaxed.json
 2ab7fda841fd8b57db583fd895915459e38a2722 data\sswplus\tags\block\mushroom_walls.json

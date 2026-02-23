@@ -2860,6 +2860,24 @@ public class SSWPTagGen {
 					SSWPBlocks.LAPIS_SLAB,
 					SSWPBlocks.LAPIS_STAIRS,
 					SSWPBlocks.LAPIS_WALL,
+					SSWPBlocks.IRON_ORE_SLAB,
+					SSWPBlocks.IRON_ORE_STAIRS,
+					SSWPBlocks.IRON_ORE_WALL,
+					SSWPBlocks.DEEPSLATE_IRON_ORE_SLAB,
+					SSWPBlocks.DEEPSLATE_IRON_ORE_STAIRS,
+					SSWPBlocks.DEEPSLATE_IRON_ORE_WALL,
+					SSWPBlocks.COPPER_ORE_SLAB,
+					SSWPBlocks.COPPER_ORE_STAIRS,
+					SSWPBlocks.COPPER_ORE_WALL,
+					SSWPBlocks.DEEPSLATE_COPPER_ORE_SLAB,
+					SSWPBlocks.DEEPSLATE_COPPER_ORE_STAIRS,
+					SSWPBlocks.DEEPSLATE_COPPER_ORE_WALL,
+					SSWPBlocks.LAPIS_ORE_SLAB,
+					SSWPBlocks.LAPIS_ORE_STAIRS,
+					SSWPBlocks.LAPIS_ORE_WALL,
+					SSWPBlocks.DEEPSLATE_LAPIS_ORE_SLAB,
+					SSWPBlocks.DEEPSLATE_LAPIS_ORE_STAIRS,
+					SSWPBlocks.DEEPSLATE_LAPIS_ORE_WALL,
 					SSWPBlocks.RAW_IRON_SLAB,
 					SSWPBlocks.RAW_IRON_STAIRS,
 					SSWPBlocks.RAW_IRON_WALL,
@@ -2872,16 +2890,7 @@ public class SSWPTagGen {
 			.addTag(SSWPTags.Blocks.COPPER_WALLS)
 			.addTag(SSWPTags.Blocks.COPPER_FENCES)
 			.addTag(SSWPTags.Blocks.COPPER_FENCE_GATES)
-			.addTag(SSWPTags.Blocks.COPPER_BULBS)
-			.addTag(SSWPTags.Blocks.IRON_ORE_SLABS)
-			.addTag(SSWPTags.Blocks.IRON_ORE_STAIRS)
-			.addTag(SSWPTags.Blocks.IRON_ORE_WALLS)
-			.addTag(SSWPTags.Blocks.COPPER_ORE_SLABS)
-			.addTag(SSWPTags.Blocks.COPPER_ORE_STAIRS)
-			.addTag(SSWPTags.Blocks.COPPER_ORE_WALLS)
-			.addTag(SSWPTags.Blocks.LAPIS_ORE_SLABS)
-			.addTag(SSWPTags.Blocks.LAPIS_ORE_STAIRS)
-			.addTag(SSWPTags.Blocks.LAPIS_ORE_WALLS);
+			.addTag(SSWPTags.Blocks.COPPER_BULBS);
 			
 			this.getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
 			.add(SSWPBlocks.GOLD_SLAB,
@@ -2905,18 +2914,27 @@ public class SSWPTagGen {
 					SSWPBlocks.DEEPSLATE_GOLD_ORE_SLAB,
 					SSWPBlocks.DEEPSLATE_GOLD_ORE_STAIRS,
 					SSWPBlocks.DEEPSLATE_GOLD_ORE_WALL,
+					SSWPBlocks.REDSTONE_ORE_SLAB,
+					SSWPBlocks.REDSTONE_ORE_STAIRS,
+					SSWPBlocks.REDSTONE_ORE_WALL,
+					SSWPBlocks.DEEPSLATE_REDSTONE_ORE_SLAB,
+					SSWPBlocks.DEEPSLATE_REDSTONE_ORE_STAIRS,
+					SSWPBlocks.DEEPSLATE_REDSTONE_ORE_WALL,
+					SSWPBlocks.EMERALD_ORE_SLAB,
+					SSWPBlocks.EMERALD_ORE_STAIRS,
+					SSWPBlocks.EMERALD_ORE_WALL,
+					SSWPBlocks.DEEPSLATE_EMERALD_ORE_SLAB,
+					SSWPBlocks.DEEPSLATE_EMERALD_ORE_STAIRS,
+					SSWPBlocks.DEEPSLATE_EMERALD_ORE_WALL,
+					SSWPBlocks.DIAMOND_ORE_SLAB,
+					SSWPBlocks.DIAMOND_ORE_STAIRS,
+					SSWPBlocks.DIAMOND_ORE_WALL,
+					SSWPBlocks.DEEPSLATE_DIAMOND_ORE_SLAB,
+					SSWPBlocks.DEEPSLATE_DIAMOND_ORE_STAIRS,
+					SSWPBlocks.DEEPSLATE_DIAMOND_ORE_WALL,
 					SSWPBlocks.RAW_GOLD_SLAB,
 					SSWPBlocks.RAW_GOLD_STAIRS,
-					SSWPBlocks.RAW_GOLD_WALL)
-			.addTag(SSWPTags.Blocks.REDSTONE_ORE_SLABS)
-			.addTag(SSWPTags.Blocks.REDSTONE_ORE_STAIRS)
-			.addTag(SSWPTags.Blocks.REDSTONE_ORE_WALLS)
-			.addTag(SSWPTags.Blocks.EMERALD_ORE_SLABS)
-			.addTag(SSWPTags.Blocks.EMERALD_ORE_STAIRS)
-			.addTag(SSWPTags.Blocks.EMERALD_ORE_WALLS)
-			.addTag(SSWPTags.Blocks.DIAMOND_ORE_SLABS)
-			.addTag(SSWPTags.Blocks.DIAMOND_ORE_STAIRS)
-			.addTag(SSWPTags.Blocks.DIAMOND_ORE_WALLS);
+					SSWPBlocks.RAW_GOLD_WALL);
 			
 			this.getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 			.add(SSWPBlocks.NETHERITE_SLAB,
@@ -3139,6 +3157,9 @@ public class SSWPTagGen {
 			
 			this.getOrCreateTagBuilder(ConventionalBlockTags.OBSIDIANS)
 			.addTag(SSWPTags.Blocks.OBSIDIAN);
+			
+			this.getOrCreateTagBuilder(ConventionalBlockTags.QUARTZ_ORES)
+			.addTag(SSWPTags.Blocks.QUARTZ_ORES);
 			
 			this.getOrCreateTagBuilder(ConventionalBlockTags.WHITE_DYED)
 			.add(SSWPBlocks.WHITE_WOOL_SLAB,
@@ -3688,6 +3709,7 @@ public class SSWPTagGen {
 			this.copy(ConventionalBlockTags.CHAINS, ConventionalItemTags.CHAINS);
 			this.copy(ConventionalBlockTags.GLASS_PANES, ConventionalItemTags.GLASS_PANES);
 			this.copy(ConventionalBlockTags.OBSIDIANS, ConventionalItemTags.OBSIDIANS);
+			this.copy(ConventionalBlockTags.QUARTZ_ORES, ConventionalItemTags.QUARTZ_ORES);
 			this.copy(ConventionalBlockTags.WHITE_DYED, ConventionalItemTags.WHITE_DYED);
 			this.copy(ConventionalBlockTags.LIGHT_GRAY_DYED, ConventionalItemTags.LIGHT_GRAY_DYED);
 			this.copy(ConventionalBlockTags.GRAY_DYED, ConventionalItemTags.GRAY_DYED);

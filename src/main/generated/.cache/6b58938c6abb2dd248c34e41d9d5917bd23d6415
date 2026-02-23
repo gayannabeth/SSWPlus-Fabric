@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-21T18:32:01.5393163	Stairs Slabs Walls+/Tags for minecraft:item
+// 1.21.1	2026-02-23T15:30:37.5765388	Stairs Slabs Walls+/Tags for minecraft:item
 86b698c71e43ec803bac5d0c84d288d02ae787af data\sswplus\tags\item\mangrove_walls.json
 3b9fdde0f8656fd615b7f24f93c235afcfb9d4e3 data\sswplus\tags\item\copper_walls.json
 9c5ae7b279bbd5ff1e85a4ebab5721ab0d1432e3 data\sswplus\tags\item\dead_coral_slabs.json
@@ -100,6 +100,7 @@ e9c42dfe189bcdd3c5cbbf4cb49acc4b009f816f data\sswplus\tags\item\coral_stairs.jso
 2ac85d8920ded31c70099d2277be92c4d7327abb data\sswplus\tags\item\concrete_stairs.json
 c92f2b59a70635b58a4cda48c001a27cd9e7a169 data\sswplus\tags\item\copper_stairs\waxed.json
 249d18ef67b30c8a438cbe39c80342dc70462c27 data\sswplus\tags\item\unwaxed_copper_hanging_signs.json
+da5cbf59be99e980e82275b4bbb8f11572c86274 data\c\tags\item\ores\quartz.json
 92260738e8361bd60c495f793af9e26f7af71ecb data\sswplus\tags\item\dirt_slabs.json
 489a13c33b68bda640a7b65f780cf7d5535cac55 data\aquifer\tags\item\sticks.json
 4bff9e00a5ac8411a145728a60117e12d1c789c2 data\aquifer\tags\item\crafted_beehives.json
@@ -198,8 +199,8 @@ cbf5bee01bfa4c3fdc0ea33ed24c5ba230797518 data\sswplus\tags\item\birch_stairs.jso
 336c2600215ccff4a5e6fe0e230da1accc046057 data\c\tags\item\sandstone\uncolored_walls.json
 6b320f9c34649a92b607b9a4b0c90ff0c72c613f data\sswplus\tags\item\deepslate_tile_stairs.json
 f253ef40a8ba7041011bef3af1719dd346fdd1c2 data\sswplus\tags\item\diamond_ore_walls.json
-13e0ec09ea15418e5ba9f356704d21ad205c07e9 data\sswplus\tags\item\glass_slabs.json
 75ac5c19cdf360d8c2804c39163e0d1bd8e18169 data\sswplus\tags\item\tuff_stairs.json
+13e0ec09ea15418e5ba9f356704d21ad205c07e9 data\sswplus\tags\item\glass_slabs.json
 004f7972b65e8ca50bafc63f73139c1877ffb9f4 data\sswplus\tags\item\birch_walls.json
 fccd0003c8808e503f8e616edc4eef6e3bdf3dff data\c\tags\item\glass_panes.json
 1ed841d6f68294130c18177a460aa93f8d1f0fad data\sswplus\tags\item\cherry_stairs.json
