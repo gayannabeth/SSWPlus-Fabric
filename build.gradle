@@ -60,8 +60,8 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	
-	modApi "gay.mountainspring.aquifer:aquifer-fabric:${project.aquifer_version}"
-	//modApi "maven.modrinth:ms-aquifer:fabric_${project.aquifer_version}"
+	//modApi "gay.mountainspring.aquifer:aquifer-fabric:${project.aquifer_version}"
+	modApi "maven.modrinth:ms-aquifer:fabric_${project.aquifer_version}"
 	
 	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_version}") {
         exclude(group: "net.fabricmc.fabric-api")
